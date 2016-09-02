@@ -55,5 +55,5 @@ end)
 
 Hooks:Add("MenuManagerBuildCustomMenus", "SecondaryPrimaryWeaponOptions", function(menu_manager, nodes)
 	nodes[SecondaryPrimaryWeapon.options_menu] = MenuHelper:BuildMenu( SecondaryPrimaryWeapon.options_menu )
-	MenuHelper:AddMenuItem( MenuHelper.menus.lua_mod_options_menu, SecondaryPrimaryWeapon.options_menu, "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc", 1 )
+	MenuHelper:AddMenuItem( MenuHelper.menus.lua_mod_options_menu, SecondaryPrimaryWeapon.options_menu, "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc")
 end)

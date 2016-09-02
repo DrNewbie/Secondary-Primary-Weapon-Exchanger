@@ -2,8 +2,8 @@ _G.SecondaryPrimaryWeapon = _G.SecondaryPrimaryWeapon or {}
 
 local _f_UpgradesTweakData_init = UpgradesTweakData.init
 
-function UpgradesTweakData:init()
-	_f_UpgradesTweakData_init(self)
+function UpgradesTweakData:init(...)
+	_f_UpgradesTweakData_init(self, ...)
 	SecondaryPrimaryWeapon:_init_definitions(self)
 end
 
