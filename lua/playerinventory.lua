@@ -6,8 +6,9 @@ function PlayerInventory:add_unit(new_unit, is_equip, equip_is_instant)
 	new_selection.unit = new_unit
 	new_unit:base():add_destroy_listener(self._listener_id, callback(self, self, "clbk_weapon_unit_destroyed"))
 	local selection_index = use_data.selection_index
-	if self._available_selections[selection_index] then
-		use_data.selection_index = selection_index == 1 and 2 or 1
+	local _factory_id = new_unit:base()._factory_id
+	if _factory_id:find("duplicate") then
+		use_data.selection_index = use_data.selection_index == 1 and 2 or 1
 	end
 	_f10(self, new_unit, is_equip, equip_is_instant)
 end
