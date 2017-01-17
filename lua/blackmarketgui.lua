@@ -1,8 +1,5 @@
 _G.SecondaryPrimaryWeapon = _G.SecondaryPrimaryWeapon or {}
 
-local _f_BlackMarketGui_reload = BlackMarketGui.reload
-
-function BlackMarketGui:reload()
+Hooks:PreHook(BlackMarketGui, "reload", "S2PP2S_BlackMarketGui_reload", function(...)
 	SecondaryPrimaryWeapon:_BlackMarketManager_load_done()
-	_f_BlackMarketGui_reload(self)
-end
+end )

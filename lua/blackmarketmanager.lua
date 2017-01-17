@@ -1,16 +1,14 @@
 _G.SecondaryPrimaryWeapon = _G.SecondaryPrimaryWeapon or {}
 
-local _f_BlackMarketManager_load_done = BlackMarketManager._load_done
-local _f_BlackMarketManager_equipped_item = BlackMarketManager.equipped_item
-
-function BlackMarketManager:_load_done()
-	_f_BlackMarketManager_load_done(self)
+Hooks:PostHook(BlackMarketManager, "_load_done", "S2PP2S_BlackMarketManager__load_done", function(...)
 	SecondaryPrimaryWeapon:_BlackMarketManager_load_done()
-end
+end )
+
+local S2PP2S_BlackMarketManager_equipped_item = BlackMarketManager.equipped_item
 
 function BlackMarketManager:equipped_item(...)
 	SecondaryPrimaryWeapon:_BlackMarketManager_load_done()
-	return _f_BlackMarketManager_equipped_item(self, ...)
+	return S2PP2S_BlackMarketManager_equipped_item(self, ...)
 end
 
 function SecondaryPrimaryWeapon:_BlackMarketManager_load_done()

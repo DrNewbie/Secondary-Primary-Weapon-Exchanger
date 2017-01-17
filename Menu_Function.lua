@@ -57,3 +57,6 @@ Hooks:Add("MenuManagerBuildCustomMenus", "SecondaryPrimaryWeaponOptions", functi
 	nodes[SecondaryPrimaryWeapon.options_menu] = MenuHelper:BuildMenu( SecondaryPrimaryWeapon.options_menu )
 	MenuHelper:AddMenuItem( MenuHelper.menus.lua_mod_options_menu, SecondaryPrimaryWeapon.options_menu, "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc")
 end)
+
+Announcer:AddHostMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
+Announcer:AddClientMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
