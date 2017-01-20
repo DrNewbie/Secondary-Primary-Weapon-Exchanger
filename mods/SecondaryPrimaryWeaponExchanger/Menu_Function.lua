@@ -32,9 +32,11 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 					if _factory_id then
 						local _wd = tweak_data.weapon[_weapon_id] or nil
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
+						local _locked = ''
+						_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 						if _wd and _wfd then
 							_file:write('	<WeaponNew> \n')
-							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'"> \n')
+							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _locked..'> \n')
 							if _wd.use_data.selection_index == 1 then
 								_file:write('			<use_data selection_index="2"/> \n')
 							else

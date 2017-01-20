@@ -1,6 +1,6 @@
 <table name="SecondaryPrimaryWeaponExchanger"> 
 	<WeaponNew> 
-		<weapon id="ak5_besecondary" based_on="ak5" name_id="bm_w_ak5" desc_id ="bm_w_ak5_desc" description_id="des_m4"> 
+		<weapon id="ak5_besecondary" based_on="ak5" name_id="bm_w_ak5" desc_id ="bm_w_ak5_desc" description_id="des_m4"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_ak5_besecondary" based_on="wpn_fps_ass_ak5" unit="units/payday2/weapons/wpn_fps_ass_ak5/wpn_fps_ass_ak5"> 
@@ -74,7 +74,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ak74_besecondary" based_on="ak74" name_id="bm_w_ak74" desc_id ="bm_w_ak74_desc" description_id="des_ak47"> 
+		<weapon id="ak74_besecondary" based_on="ak74" name_id="bm_w_ak74" desc_id ="bm_w_ak74_desc" description_id="des_ak47"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_74_besecondary" based_on="wpn_fps_ass_74" unit="units/payday2/weapons/wpn_fps_ass_74/wpn_fps_ass_74"> 
@@ -174,7 +174,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akm_besecondary" based_on="akm" name_id="bm_w_akm" desc_id ="bm_w_akm_desc" description_id="des_ak47"> 
+		<weapon id="akm_besecondary" based_on="akm" name_id="bm_w_akm" desc_id ="bm_w_akm_desc" description_id="des_ak47"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_akm_besecondary" based_on="wpn_fps_ass_akm" unit="units/payday2/weapons/wpn_fps_ass_akm/wpn_fps_ass_akm"> 
@@ -266,7 +266,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akmsu_besecondary" based_on="akmsu" name_id="bm_w_akmsu" desc_id ="bm_w_akmsu_desc" description_id="des_ak47"> 
+		<weapon id="akmsu_besecondary" based_on="akmsu" name_id="bm_w_akmsu" desc_id ="bm_w_akmsu_desc" description_id="des_ak47"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_akmsu_besecondary" based_on="wpn_fps_smg_akmsu" unit="units/payday2/weapons/wpn_fps_smg_akmsu/wpn_fps_smg_akmsu"> 
@@ -349,7 +349,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="amcar_besecondary" based_on="amcar" name_id="bm_w_amcar" desc_id ="bm_w_amcar_desc" description_id="des_m4"> 
+		<weapon id="amcar_besecondary" based_on="amcar" name_id="bm_w_amcar" desc_id ="bm_w_amcar_desc" description_id="des_m4"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_amcar_besecondary" based_on="wpn_fps_ass_amcar" unit="units/payday2/weapons/wpn_fps_ass_amcar/wpn_fps_ass_amcar"> 
@@ -419,7 +419,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="aug_besecondary" based_on="aug" name_id="bm_w_aug" desc_id ="bm_w_aug_desc" description_id="des_aug"> 
+		<weapon id="aug_besecondary" based_on="aug" name_id="bm_w_aug" desc_id ="bm_w_aug_desc" description_id="des_aug"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_aug_besecondary" based_on="wpn_fps_ass_aug" unit="units/payday2/weapons/wpn_fps_ass_aug/wpn_fps_ass_aug"> 
@@ -486,7 +486,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="b92fs_besecondary" based_on="b92fs" name_id="bm_w_b92fs" desc_id ="bm_w_b92fs_desc" description_id="des_b92fs"> 
+		<weapon id="b92fs_besecondary" based_on="b92fs" name_id="bm_w_b92fs" desc_id ="bm_w_b92fs_desc" description_id="des_b92fs"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_beretta_besecondary" based_on="wpn_fps_pis_beretta" unit="units/payday2/weapons/wpn_fps_pis_b92fs/wpn_fps_pis_beretta"> 
@@ -540,7 +540,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="colt_1911_besecondary" based_on="colt_1911" name_id="bm_w_colt_1911" desc_id ="bm_w_colt_1911_desc" description_id="des_colt_1911"> 
+		<weapon id="colt_1911_besecondary" based_on="colt_1911" name_id="bm_w_colt_1911" desc_id ="bm_w_colt_1911_desc" description_id="des_colt_1911"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_1911_besecondary" based_on="wpn_fps_pis_1911" unit="units/payday2/weapons/wpn_fps_pis_1911/wpn_fps_pis_1911"> 
@@ -593,7 +593,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="deagle_besecondary" based_on="deagle" name_id="bm_w_deagle" desc_id ="bm_w_deagle_desc" description_id="des_deagle"> 
+		<weapon id="deagle_besecondary" based_on="deagle" name_id="bm_w_deagle" desc_id ="bm_w_deagle_desc" description_id="des_deagle"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_deagle_besecondary" based_on="wpn_fps_pis_deagle" unit="units/payday2/weapons/wpn_fps_pis_deagle/wpn_fps_pis_deagle"> 
@@ -663,7 +663,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g22c_besecondary" based_on="g22c" name_id="bm_w_g22c" desc_id ="bm_w_g22c_desc" description_id="des_g22c"> 
+		<weapon id="g22c_besecondary" based_on="g22c" name_id="bm_w_g22c" desc_id ="bm_w_g22c_desc" description_id="des_g22c" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_g22c_besecondary" based_on="wpn_fps_pis_g22c" unit="units/payday2/weapons/wpn_fps_pis_g22c/wpn_fps_pis_g22c"> 
@@ -709,7 +709,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g36_besecondary" based_on="g36" name_id="bm_w_g36" desc_id ="bm_w_g36_desc" description_id="des_m4"> 
+		<weapon id="g36_besecondary" based_on="g36" name_id="bm_w_g36" desc_id ="bm_w_g36_desc" description_id="des_m4"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_g36_besecondary" based_on="wpn_fps_ass_g36" unit="units/payday2/weapons/wpn_fps_ass_g36/wpn_fps_ass_g36"> 
@@ -780,7 +780,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="glock_17_besecondary" based_on="glock_17" name_id="bm_w_glock_17" desc_id ="bm_w_glock_17_desc" description_id="des_glock_17"> 
+		<weapon id="glock_17_besecondary" based_on="glock_17" name_id="bm_w_glock_17" desc_id ="bm_w_glock_17_desc" description_id="des_glock_17"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_g17_besecondary" based_on="wpn_fps_pis_g17" unit="units/payday2/weapons/wpn_fps_pis_g17/wpn_fps_pis_g17"> 
@@ -822,7 +822,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="glock_18c_besecondary" based_on="glock_18c" name_id="bm_w_glock_18c" desc_id ="bm_w_glock_18c_desc" description_id="des_glock"> 
+		<weapon id="glock_18c_besecondary" based_on="glock_18c" name_id="bm_w_glock_18c" desc_id ="bm_w_glock_18c_desc" description_id="des_glock"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_g18c_besecondary" based_on="wpn_fps_pis_g18c" unit="units/payday2/weapons/wpn_fps_pis_g18c/wpn_fps_pis_g18c"> 
@@ -868,7 +868,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="huntsman_besecondary" based_on="huntsman" name_id="bm_w_huntsman" desc_id ="bm_w_huntsman_desc" description_id="des_huntsman"> 
+		<weapon id="huntsman_besecondary" based_on="huntsman" name_id="bm_w_huntsman" desc_id ="bm_w_huntsman_desc" description_id="des_huntsman"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_huntsman_besecondary" based_on="wpn_fps_shot_huntsman" unit="units/payday2/weapons/wpn_fps_shot_huntsman/wpn_fps_shot_huntsman"> 
@@ -899,7 +899,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m16_besecondary" based_on="m16" name_id="bm_w_m16" desc_id ="bm_w_m16_desc" description_id="des_m4"> 
+		<weapon id="m16_besecondary" based_on="m16" name_id="bm_w_m16" desc_id ="bm_w_m16_desc" description_id="des_m4"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_m16_besecondary" based_on="wpn_fps_ass_m16" unit="units/payday2/weapons/wpn_fps_ass_m16/wpn_fps_ass_m16"> 
@@ -996,7 +996,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mac10_besecondary" based_on="mac10" name_id="bm_w_mac10" desc_id ="bm_w_mac10_desc" description_id="des_mac10"> 
+		<weapon id="mac10_besecondary" based_on="mac10" name_id="bm_w_mac10" desc_id ="bm_w_mac10_desc" description_id="des_mac10"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_mac10_besecondary" based_on="wpn_fps_smg_mac10" unit="units/payday2/weapons/wpn_fps_smg_mac10/wpn_fps_smg_mac10"> 
@@ -1062,7 +1062,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mp9_besecondary" based_on="mp9" name_id="bm_w_mp9" desc_id ="bm_w_mp9_desc" description_id="des_mp9"> 
+		<weapon id="mp9_besecondary" based_on="mp9" name_id="bm_w_mp9" desc_id ="bm_w_mp9_desc" description_id="des_mp9"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_mp9_besecondary" based_on="wpn_fps_smg_mp9" unit="units/payday2/weapons/wpn_fps_smg_mp9/wpn_fps_smg_mp9"> 
@@ -1122,7 +1122,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_m14_besecondary" based_on="new_m14" name_id="bm_w_m14" desc_id ="bm_w_m14_desc" description_id="des_m14"> 
+		<weapon id="new_m14_besecondary" based_on="new_m14" name_id="bm_w_m14" desc_id ="bm_w_m14_desc" description_id="des_m14"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_m14_besecondary" based_on="wpn_fps_ass_m14" unit="units/payday2/weapons/wpn_fps_ass_m14/wpn_fps_ass_m14"> 
@@ -1187,7 +1187,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_m4_besecondary" based_on="new_m4" name_id="bm_w_m4" desc_id ="bm_w_m4_desc" description_id="des_m4"> 
+		<weapon id="new_m4_besecondary" based_on="new_m4" name_id="bm_w_m4" desc_id ="bm_w_m4_desc" description_id="des_m4"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_m4_besecondary" based_on="wpn_fps_ass_m4" unit="units/payday2/weapons/wpn_fps_ass_m4/wpn_fps_ass_m4"> 
@@ -1287,7 +1287,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_mp5_besecondary" based_on="new_mp5" name_id="bm_w_mp5" desc_id ="bm_w_mp5_desc" description_id="des_mp5"> 
+		<weapon id="new_mp5_besecondary" based_on="new_mp5" name_id="bm_w_mp5" desc_id ="bm_w_mp5_desc" description_id="des_mp5"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_mp5_besecondary" based_on="wpn_fps_smg_mp5" unit="units/payday2/weapons/wpn_fps_smg_mp5/wpn_fps_smg_mp5"> 
@@ -1354,7 +1354,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_raging_bull_besecondary" based_on="new_raging_bull" name_id="bm_w_raging_bull" desc_id ="bm_w_raging_bull_desc" description_id="des_new_raging_bull"> 
+		<weapon id="new_raging_bull_besecondary" based_on="new_raging_bull" name_id="bm_w_raging_bull" desc_id ="bm_w_raging_bull_desc" description_id="des_new_raging_bull"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_rage_besecondary" based_on="wpn_fps_pis_rage" unit="units/payday2/weapons/wpn_fps_pis_rage/wpn_fps_pis_rage"> 
@@ -1401,7 +1401,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="olympic_besecondary" based_on="olympic" name_id="bm_w_olympic" desc_id ="bm_w_olympic_desc" description_id="des_m4"> 
+		<weapon id="olympic_besecondary" based_on="olympic" name_id="bm_w_olympic" desc_id ="bm_w_olympic_desc" description_id="des_m4"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_olympic_besecondary" based_on="wpn_fps_smg_olympic" unit="units/payday2/weapons/wpn_fps_smg_olympic/wpn_fps_smg_olympic"> 
@@ -1495,7 +1495,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="p90_besecondary" based_on="p90" name_id="bm_w_p90" desc_id ="bm_w_p90_desc" description_id="des_p90"> 
+		<weapon id="p90_besecondary" based_on="p90" name_id="bm_w_p90" desc_id ="bm_w_p90_desc" description_id="des_p90"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_p90_besecondary" based_on="wpn_fps_smg_p90" unit="units/payday2/weapons/wpn_fps_smg_p90/wpn_fps_smg_p90"> 
@@ -1557,7 +1557,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="r870_besecondary" based_on="r870" name_id="bm_w_r870" desc_id ="bm_w_r870_desc" description_id="des_r870"> 
+		<weapon id="r870_besecondary" based_on="r870" name_id="bm_w_r870" desc_id ="bm_w_r870_desc" description_id="des_r870"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_r870_besecondary" based_on="wpn_fps_shot_r870" unit="units/payday2/weapons/wpn_fps_shot_r870/wpn_fps_shot_r870"> 
@@ -1637,7 +1637,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="saiga_besecondary" based_on="saiga" name_id="bm_w_saiga" desc_id ="bm_w_saiga_desc" description_id="des_saiga"> 
+		<weapon id="saiga_besecondary" based_on="saiga" name_id="bm_w_saiga" desc_id ="bm_w_saiga_desc" description_id="des_saiga"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_saiga_besecondary" based_on="wpn_fps_shot_saiga" unit="units/payday2/weapons/wpn_fps_shot_saiga/wpn_fps_shot_saiga"> 
@@ -1718,7 +1718,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="serbu_besecondary" based_on="serbu" name_id="bm_w_serbu" desc_id ="bm_w_serbu_desc" description_id="des_r870"> 
+		<weapon id="serbu_besecondary" based_on="serbu" name_id="bm_w_serbu" desc_id ="bm_w_serbu_desc" description_id="des_r870"  > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_serbu_besecondary" based_on="wpn_fps_shot_serbu" unit="units/payday2/weapons/wpn_fps_shot_shorty/wpn_fps_shot_shorty"> 
@@ -1797,7 +1797,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="usp_besecondary" based_on="usp" name_id="bm_w_usp" desc_id ="bm_w_usp_desc" description_id="des_usp"> 
+		<weapon id="usp_besecondary" based_on="usp" name_id="bm_w_usp" desc_id ="bm_w_usp_desc" description_id="des_usp" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_usp_besecondary" based_on="wpn_fps_pis_usp" unit="units/payday2/weapons/wpn_fps_pis_usp/wpn_fps_pis_usp"> 
@@ -1842,7 +1842,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m45_besecondary" based_on="m45" name_id="bm_w_m45" desc_id ="bm_w_m45_desc" description_id="des_m45"> 
+		<weapon id="m45_besecondary" based_on="m45" name_id="bm_w_m45" desc_id ="bm_w_m45_desc" description_id="des_m45" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_m45_besecondary" based_on="wpn_fps_smg_m45" unit="units/pd2_dlc1/weapons/wpn_fps_smg_m45/wpn_fps_smg_m45"> 
@@ -1904,7 +1904,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="s552_besecondary" based_on="s552" name_id="bm_w_s552" desc_id ="bm_w_s552_desc" description_id="des_s552"> 
+		<weapon id="s552_besecondary" based_on="s552" name_id="bm_w_s552" desc_id ="bm_w_s552_desc" description_id="des_s552" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_s552_besecondary" based_on="wpn_fps_ass_s552" unit="units/pd2_dlc1/weapons/wpn_fps_ass_s552/wpn_fps_ass_s552"> 
@@ -1978,7 +1978,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ppk_besecondary" based_on="ppk" name_id="bm_w_ppk" desc_id ="bm_w_ppk_desc" description_id="des_ppk"> 
+		<weapon id="ppk_besecondary" based_on="ppk" name_id="bm_w_ppk" desc_id ="bm_w_ppk_desc" description_id="des_ppk" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_ppk_besecondary" based_on="wpn_fps_pis_ppk" unit="units/pd2_dlc1/weapons/wpn_fps_pis_ppk/wpn_fps_pis_ppk"> 
@@ -2023,7 +2023,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mp7_besecondary" based_on="mp7" name_id="bm_w_mp7" desc_id ="bm_w_mp7_desc" description_id="des_mp7"> 
+		<weapon id="mp7_besecondary" based_on="mp7" name_id="bm_w_mp7" desc_id ="bm_w_mp7_desc" description_id="des_mp7" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_mp7_besecondary" based_on="wpn_fps_smg_mp7" unit="units/pd2_dlc_dec5/weapons/wpn_fps_smg_mp7/wpn_fps_smg_mp7"> 
@@ -2082,7 +2082,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="scar_besecondary" based_on="scar" name_id="bm_w_scar" desc_id ="bm_w_scar_desc" description_id="des_scar"> 
+		<weapon id="scar_besecondary" based_on="scar" name_id="bm_w_scar" desc_id ="bm_w_scar_desc" description_id="des_scar" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_scar_besecondary" based_on="wpn_fps_ass_scar" unit="units/pd2_dlc_dec5/weapons/wpn_fps_ass_scar/wpn_fps_ass_scar"> 
@@ -2155,7 +2155,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="p226_besecondary" based_on="p226" name_id="bm_w_p226" desc_id ="bm_w_p226_desc" description_id="des_p226"> 
+		<weapon id="p226_besecondary" based_on="p226" name_id="bm_w_p226" desc_id ="bm_w_p226_desc" description_id="des_p226" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_p226_besecondary" based_on="wpn_fps_pis_p226" unit="units/pd2_dlc_dec5/weapons/wpn_fps_pis_p226/wpn_fps_pis_p226"> 
@@ -2205,7 +2205,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akm_gold_besecondary" based_on="akm_gold" name_id="bm_w_akm_gold" desc_id ="bm_w_akm_gold_desc" description_id="des_ak47"> 
+		<weapon id="akm_gold_besecondary" based_on="akm_gold" name_id="bm_w_akm_gold" desc_id ="bm_w_akm_gold_desc" description_id="des_ak47" global_value="pd2_clan" > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_akm_gold_besecondary" based_on="wpn_fps_ass_akm_gold" unit="units/payday2/weapons/wpn_fps_ass_akm_gold/wpn_fps_ass_akm_gold"> 
@@ -2297,7 +2297,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hk21_besecondary" based_on="hk21" name_id="bm_w_hk21" desc_id ="bm_w_hk21_desc" description_id="des_hk21"> 
+		<weapon id="hk21_besecondary" based_on="hk21" name_id="bm_w_hk21" desc_id ="bm_w_hk21_desc" description_id="des_hk21" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_hk21_besecondary" based_on="wpn_fps_lmg_hk21" unit="units/pd2_dlc_gage_lmg/weapons/wpn_fps_lmg_hk21/wpn_fps_lmg_hk21"> 
@@ -2346,7 +2346,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m249_besecondary" based_on="m249" name_id="bm_w_m249" desc_id ="bm_w_m249_desc" description_id="des_m249"> 
+		<weapon id="m249_besecondary" based_on="m249" name_id="bm_w_m249" desc_id ="bm_w_m249_desc" description_id="des_m249" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_m249_besecondary" based_on="wpn_fps_lmg_m249" unit="units/pd2_dlc_gage_lmg/weapons/wpn_fps_lmg_m249/wpn_fps_lmg_m249"> 
@@ -2398,7 +2398,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rpk_besecondary" based_on="rpk" name_id="bm_w_rpk" desc_id ="bm_w_rpk_desc" description_id="des_rpk"> 
+		<weapon id="rpk_besecondary" based_on="rpk" name_id="bm_w_rpk" desc_id ="bm_w_rpk_desc" description_id="des_rpk" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_rpk_besecondary" based_on="wpn_fps_lmg_rpk" unit="units/pd2_dlc_gage_lmg/weapons/wpn_fps_lmg_rpk/wpn_fps_lmg_rpk"> 
@@ -2460,7 +2460,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m95_besecondary" based_on="m95" name_id="bm_w_m95" desc_id ="bm_w_m95_desc" description_id="des_m95"> 
+		<weapon id="m95_besecondary" based_on="m95" name_id="bm_w_m95" desc_id ="bm_w_m95_desc" description_id="des_m95" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_m95_besecondary" based_on="wpn_fps_snp_m95" unit="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_m95/wpn_fps_snp_m95"> 
@@ -2521,7 +2521,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="msr_besecondary" based_on="msr" name_id="bm_w_msr" desc_id ="bm_w_msr_desc" description_id="des_msr"> 
+		<weapon id="msr_besecondary" based_on="msr" name_id="bm_w_msr" desc_id ="bm_w_msr_desc" description_id="des_msr" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_msr_besecondary" based_on="wpn_fps_snp_msr" unit="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_msr/wpn_fps_snp_msr"> 
@@ -2572,7 +2572,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="r93_besecondary" based_on="r93" name_id="bm_w_r93" desc_id ="bm_w_r93_desc" description_id="des_r93"> 
+		<weapon id="r93_besecondary" based_on="r93" name_id="bm_w_r93" desc_id ="bm_w_r93_desc" description_id="des_r93" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_r93_besecondary" based_on="wpn_fps_snp_r93" unit="units/pd2_dlc_gage_snp/weapons/wpn_fps_snp_r93/wpn_fps_snp_r93"> 
@@ -2623,7 +2623,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="fal_besecondary" based_on="fal" name_id="bm_w_fal" desc_id ="bm_w_fal_desc" description_id="des_fal"> 
+		<weapon id="fal_besecondary" based_on="fal" name_id="bm_w_fal" desc_id ="bm_w_fal_desc" description_id="des_fal" global_value="big_bank" texture_bundle_folder="big_bank"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_fal_besecondary" based_on="wpn_fps_ass_fal" unit="units/pd2_dlc_big/weapons/wpn_fps_ass_fal/wpn_fps_ass_fal"> 
@@ -2690,7 +2690,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="benelli_besecondary" based_on="benelli" name_id="bm_w_benelli" desc_id ="bm_w_benelli_desc" description_id="des_benelli"> 
+		<weapon id="benelli_besecondary" based_on="benelli" name_id="bm_w_benelli" desc_id ="bm_w_benelli_desc" description_id="des_benelli" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_ben_besecondary" based_on="wpn_fps_sho_ben" unit="units/pd2_dlc_gage_shot/weapons/wpn_fps_sho_ben/wpn_fps_sho_ben"> 
@@ -2749,7 +2749,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="striker_besecondary" based_on="striker" name_id="bm_w_striker" desc_id ="bm_w_striker_desc" description_id="des_striker"> 
+		<weapon id="striker_besecondary" based_on="striker" name_id="bm_w_striker" desc_id ="bm_w_striker_desc" description_id="des_striker" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_striker_besecondary" based_on="wpn_fps_sho_striker" unit="units/pd2_dlc_gage_shot/weapons/wpn_fps_sho_striker/wpn_fps_sho_striker"> 
@@ -2804,7 +2804,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ksg_besecondary" based_on="ksg" name_id="bm_w_ksg" desc_id ="bm_w_ksg_desc" description_id="des_ksg"> 
+		<weapon id="ksg_besecondary" based_on="ksg" name_id="bm_w_ksg" desc_id ="bm_w_ksg_desc" description_id="des_ksg" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_ksg_besecondary" based_on="wpn_fps_sho_ksg" unit="units/pd2_dlc_gage_shot/weapons/wpn_fps_sho_ksg/wpn_fps_sho_ksg"> 
@@ -2863,7 +2863,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="judge_besecondary" based_on="judge" name_id="bm_w_judge" desc_id ="bm_w_judge_desc" description_id="des_judge"> 
+		<weapon id="judge_besecondary" based_on="judge" name_id="bm_w_judge" desc_id ="bm_w_judge_desc" description_id="des_judge" global_value="pd2_clan" texture_bundle_folder="pd2_million"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_judge_besecondary" based_on="wpn_fps_pis_judge" unit="units/pd2_million/weapons/wpn_fps_pis_judge/wpn_fps_pis_judge"> 
@@ -2918,7 +2918,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="gre_m79_besecondary" based_on="gre_m79" name_id="bm_w_gre_m79" desc_id ="bm_w_gre_m79_desc" description_id="des_gre_m79"> 
+		<weapon id="gre_m79_besecondary" based_on="gre_m79" name_id="bm_w_gre_m79" desc_id ="bm_w_gre_m79_desc" description_id="des_gre_m79" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_gre_m79_besecondary" based_on="wpn_fps_gre_m79" unit="units/pd2_dlc_gage_assault/weapons/wpn_fps_gre_m79/wpn_fps_gre_m79"> 
@@ -2946,7 +2946,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g3_besecondary" based_on="g3" name_id="bm_w_g3" desc_id ="bm_w_g3_desc" description_id="des_g3"> 
+		<weapon id="g3_besecondary" based_on="g3" name_id="bm_w_g3" desc_id ="bm_w_g3_desc" description_id="des_g3" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_g3_besecondary" based_on="wpn_fps_ass_g3" unit="units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_g3/wpn_fps_ass_g3"> 
@@ -3018,7 +3018,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="galil_besecondary" based_on="galil" name_id="bm_w_galil" desc_id ="bm_w_galil_desc" description_id="des_galil"> 
+		<weapon id="galil_besecondary" based_on="galil" name_id="bm_w_galil" desc_id ="bm_w_galil_desc" description_id="des_galil" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_galil_besecondary" based_on="wpn_fps_ass_galil" unit="units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_galil/wpn_fps_ass_galil"> 
@@ -3087,7 +3087,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="famas_besecondary" based_on="famas" name_id="bm_w_famas" desc_id ="bm_w_famas_desc" description_id="des_famas"> 
+		<weapon id="famas_besecondary" based_on="famas" name_id="bm_w_famas" desc_id ="bm_w_famas_desc" description_id="des_famas" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_famas_besecondary" based_on="wpn_fps_ass_famas" unit="units/pd2_dlc_gage_assault/weapons/wpn_fps_ass_famas/wpn_fps_ass_famas"> 
@@ -3150,7 +3150,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="scorpion_besecondary" based_on="scorpion" name_id="bm_w_scorpion" desc_id ="bm_w_scorpion_desc" description_id="des_scorpion"> 
+		<weapon id="scorpion_besecondary" based_on="scorpion" name_id="bm_w_scorpion" desc_id ="bm_w_scorpion_desc" description_id="des_scorpion" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_scorpion_besecondary" based_on="wpn_fps_smg_scorpion" unit="units/pd2_dlc_miami/weapons/wpn_fps_smg_scorpion/wpn_fps_smg_scorpion"> 
@@ -3213,7 +3213,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="tec9_besecondary" based_on="tec9" name_id="bm_w_tec9" desc_id ="bm_w_tec9_desc" description_id="des_tec9"> 
+		<weapon id="tec9_besecondary" based_on="tec9" name_id="bm_w_tec9" desc_id ="bm_w_tec9_desc" description_id="des_tec9" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_tec9_besecondary" based_on="wpn_fps_smg_tec9" unit="units/pd2_dlc_miami/weapons/wpn_fps_smg_tec9/wpn_fps_smg_tec9"> 
@@ -3270,7 +3270,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="uzi_besecondary" based_on="uzi" name_id="bm_w_uzi" desc_id ="bm_w_uzi_desc" description_id="des_uzi"> 
+		<weapon id="uzi_besecondary" based_on="uzi" name_id="bm_w_uzi" desc_id ="bm_w_uzi_desc" description_id="des_uzi" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_uzi_besecondary" based_on="wpn_fps_smg_uzi" unit="units/pd2_dlc_miami/weapons/wpn_fps_smg_uzi/wpn_fps_smg_uzi"> 
@@ -3334,7 +3334,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="jowi_besecondary" based_on="jowi" name_id="bm_w_jowi" desc_id ="bm_w_jowi_desc" description_id="des_jowi"> 
+		<weapon id="jowi_besecondary" based_on="jowi" name_id="bm_w_jowi" desc_id ="bm_w_jowi_desc" description_id="des_jowi"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_jowi_besecondary" based_on="wpn_fps_jowi" unit="units/pd2_crimefest_2014/oct22/weapons/wpn_fps_jowi/wpn_fps_jowi"> 
@@ -3378,7 +3378,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_1911_besecondary" based_on="x_1911" name_id="bm_w_x_1911" desc_id ="bm_w_x_1911_desc" description_id="des_x_1911"> 
+		<weapon id="x_1911_besecondary" based_on="x_1911" name_id="bm_w_x_1911" desc_id ="bm_w_x_1911_desc" description_id="des_x_1911"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_x_1911_besecondary" based_on="wpn_fps_x_1911" unit="units/pd2_crimefest_2014/oct22/weapons/wpn_fps_x_1911/wpn_fps_x_1911"> 
@@ -3431,7 +3431,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_b92fs_besecondary" based_on="x_b92fs" name_id="bm_w_x_b92fs" desc_id ="bm_w_x_b92fs_desc" description_id="des_x_b92fs"> 
+		<weapon id="x_b92fs_besecondary" based_on="x_b92fs" name_id="bm_w_x_b92fs" desc_id ="bm_w_x_b92fs_desc" description_id="des_x_b92fs"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_x_b92fs_besecondary" based_on="wpn_fps_x_b92fs" unit="units/pd2_crimefest_2014/oct22/weapons/wpn_fps_x_b92fs/wpn_fps_x_b92fs"> 
@@ -3482,7 +3482,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_deagle_besecondary" based_on="x_deagle" name_id="bm_w_x_deagle" desc_id ="bm_w_x_deagle_desc" description_id="des_x_deagle"> 
+		<weapon id="x_deagle_besecondary" based_on="x_deagle" name_id="bm_w_x_deagle" desc_id ="bm_w_x_deagle_desc" description_id="des_x_deagle"  > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_x_deagle_besecondary" based_on="wpn_fps_x_deagle" unit="units/pd2_crimefest_2014/oct22/weapons/wpn_fps_x_deagle/wpn_fps_x_deagle"> 
@@ -3532,7 +3532,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g26_besecondary" based_on="g26" name_id="bm_wp_pis_g26" desc_id ="bm_wp_pis_g26_desc" description_id="des_g26"> 
+		<weapon id="g26_besecondary" based_on="g26" name_id="bm_wp_pis_g26" desc_id ="bm_wp_pis_g26_desc" description_id="des_g26" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_g26_besecondary" based_on="wpn_fps_pis_g26" unit="units/pd2_crimefest_2014/oct22/weapons/wpn_fps_pis_g26/wpn_fps_pis_g26"> 
@@ -3577,7 +3577,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="spas12_besecondary" based_on="spas12" name_id="bm_w_spas12" desc_id ="bm_w_spas12_desc" description_id="des_spas12"> 
+		<weapon id="spas12_besecondary" based_on="spas12" name_id="bm_w_spas12" desc_id ="bm_w_spas12_desc" description_id="des_spas12" global_value="pd2_clan" > 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_spas12_besecondary" based_on="wpn_fps_sho_spas12" unit="units/pd2_crimefest_2014/oct26/weapons/wpn_fps_sho_spas12/wpn_fps_sho_spas12"> 
@@ -3636,7 +3636,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mg42_besecondary" based_on="mg42" name_id="bm_w_mg42" desc_id ="bm_w_mg42_desc" description_id="des_mg42"> 
+		<weapon id="mg42_besecondary" based_on="mg42" name_id="bm_w_mg42" desc_id ="bm_w_mg42_desc" description_id="des_mg42" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_mg42_besecondary" based_on="wpn_fps_lmg_mg42" unit="units/pd2_dlc_gage_historical/weapons/wpn_fps_lmg_mg42/wpn_fps_lmg_mg42"> 
@@ -3677,7 +3677,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="c96_besecondary" based_on="c96" name_id="bm_w_c96" desc_id ="bm_w_c96_desc" description_id="des_c96"> 
+		<weapon id="c96_besecondary" based_on="c96" name_id="bm_w_c96" desc_id ="bm_w_c96_desc" description_id="des_c96" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_c96_besecondary" based_on="wpn_fps_pis_c96" unit="units/pd2_dlc_gage_historical/weapons/wpn_fps_pis_c96/wpn_fps_pis_c96"> 
@@ -3721,7 +3721,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sterling_besecondary" based_on="sterling" name_id="bm_w_sterling" desc_id ="bm_w_sterling_desc" description_id="des_sterling"> 
+		<weapon id="sterling_besecondary" based_on="sterling" name_id="bm_w_sterling" desc_id ="bm_w_sterling_desc" description_id="des_sterling" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_sterling_besecondary" based_on="wpn_fps_smg_sterling" unit="units/pd2_dlc_gage_historical/weapons/wpn_fps_smg_sterling/wpn_fps_smg_sterling"> 
@@ -3785,7 +3785,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mosin_besecondary" based_on="mosin" name_id="bm_w_mosin" desc_id ="bm_w_mosin_desc" description_id="des_mosin"> 
+		<weapon id="mosin_besecondary" based_on="mosin" name_id="bm_w_mosin" desc_id ="bm_w_mosin_desc" description_id="des_mosin" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_mosin_besecondary" based_on="wpn_fps_snp_mosin" unit="units/pd2_dlc_gage_historical/weapons/wpn_fps_snp_mosin/wpn_fps_snp_mosin"> 
@@ -3839,7 +3839,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m1928_besecondary" based_on="m1928" name_id="bm_w_m1928" desc_id ="bm_w_m1928_desc" description_id="des_m1928"> 
+		<weapon id="m1928_besecondary" based_on="m1928" name_id="bm_w_m1928" desc_id ="bm_w_m1928_desc" description_id="des_m1928" global_value="pd2_clan" texture_bundle_folder="pines"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_thompson_besecondary" based_on="wpn_fps_smg_thompson" unit="units/pd2_dlc_pines/weapons/wpn_fps_smg_m1928/wpn_fps_smg_thompson"> 
@@ -3906,7 +3906,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="l85a2_besecondary" based_on="l85a2" name_id="bm_w_l85a2" desc_id ="bm_w_l85a2_desc" description_id="des_l85a2"> 
+		<weapon id="l85a2_besecondary" based_on="l85a2" name_id="bm_w_l85a2" desc_id ="bm_w_l85a2_desc" description_id="des_l85a2" global_value="character_pack_clover" texture_bundle_folder="character_pack_clover"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_l85a2_besecondary" based_on="wpn_fps_ass_l85a2" unit="units/pd2_dlc_clover/weapons/wpn_fps_ass_l85a2/wpn_fps_ass_l85a2"> 
@@ -3979,7 +3979,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="vhs_besecondary" based_on="vhs" name_id="bm_w_vhs" desc_id ="bm_w_vhs_desc" description_id="des_vhs"> 
+		<weapon id="vhs_besecondary" based_on="vhs" name_id="bm_w_vhs" desc_id ="bm_w_vhs_desc" description_id="des_vhs" global_value="character_pack_dragan" texture_bundle_folder="character_pack_dragan"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_vhs_besecondary" based_on="wpn_fps_ass_vhs" unit="units/pd2_dlc_dragan/weapons/wpn_fps_ass_vhs/wpn_fps_ass_vhs"> 
@@ -4040,7 +4040,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hs2000_besecondary" based_on="hs2000" name_id="bm_w_hs2000" desc_id ="bm_w_hs2000_desc" description_id="des_hs2000"> 
+		<weapon id="hs2000_besecondary" based_on="hs2000" name_id="bm_w_hs2000" desc_id ="bm_w_hs2000_desc" description_id="des_hs2000" global_value="the_bomb" texture_bundle_folder="the_bomb"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_hs2000_besecondary" based_on="wpn_fps_pis_hs2000" unit="units/pd2_dlc_the_bomb/weapons/wpn_fps_pis_hs2000/wpn_fps_pis_hs2000"> 
@@ -4082,7 +4082,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m134_besecondary" based_on="m134" name_id="bm_w_m134" desc_id ="bm_w_m134_desc" description_id="des_m134"> 
+		<weapon id="m134_besecondary" based_on="m134" name_id="bm_w_m134" desc_id ="bm_w_m134_desc" description_id="des_m134" global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_m134_besecondary" based_on="wpn_fps_lmg_m134" unit="units/pd2_dlc_overkill_pack/weapons/wpn_fps_lmg_m134/wpn_fps_lmg_m134"> 
@@ -4117,7 +4117,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rpg7_besecondary" based_on="rpg7" name_id="bm_w_rpg7" desc_id ="bm_w_rpg7_desc" description_id="des_rpg7"> 
+		<weapon id="rpg7_besecondary" based_on="rpg7" name_id="bm_w_rpg7" desc_id ="bm_w_rpg7_desc" description_id="des_rpg7" global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_rpg7_besecondary" based_on="wpn_fps_rpg7" unit="units/pd2_dlc_overkill_pack/weapons/wpn_fps_rpg7/wpn_fps_rpg7"> 
@@ -4156,7 +4156,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="cobray_besecondary" based_on="cobray" name_id="bm_w_cobray" desc_id ="bm_w_cobray_desc" description_id="des_cobray"> 
+		<weapon id="cobray_besecondary" based_on="cobray" name_id="bm_w_cobray" desc_id ="bm_w_cobray_desc" description_id="des_cobray" global_value="hlm2_deluxe" texture_bundle_folder="hlm2"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_cobray_besecondary" based_on="wpn_fps_smg_cobray" unit="units/pd2_dlc_hotline2/weapons/wpn_fps_smg_cobray/wpn_fps_smg_cobray"> 
@@ -4228,7 +4228,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="b682_besecondary" based_on="b682" name_id="bm_w_b682" desc_id ="bm_w_b682_desc" description_id="des_b682"> 
+		<weapon id="b682_besecondary" based_on="b682" name_id="bm_w_b682" desc_id ="bm_w_b682_desc" description_id="des_b682" global_value="pd2_clan" texture_bundle_folder="character_pack_bonnie"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_b682_besecondary" based_on="wpn_fps_shot_b682" unit="units/pd2_dlc_bonnie/weapons/wpn_fps_shot_b682/wpn_fps_shot_b682"> 
@@ -4260,7 +4260,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_g22c_besecondary" based_on="x_g22c" name_id="bm_w_x_g22c" desc_id ="bm_w_x_g22c_desc" description_id="des_x_g22c"> 
+		<weapon id="x_g22c_besecondary" based_on="x_g22c" name_id="bm_w_x_g22c" desc_id ="bm_w_x_g22c_desc" description_id="des_x_g22c"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_x_g22c_besecondary" based_on="wpn_fps_pis_x_g22c" unit="units/pd2_dlc_butcher_mods/weapons/wpn_fps_pis_x_g22c/wpn_fps_pis_x_g22c"> 
@@ -4305,7 +4305,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_g17_besecondary" based_on="x_g17" name_id="bm_w_x_g17" desc_id ="bm_w_x_g17_desc" description_id="des_x_g17"> 
+		<weapon id="x_g17_besecondary" based_on="x_g17" name_id="bm_w_x_g17" desc_id ="bm_w_x_g17_desc" description_id="des_x_g17"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_x_g17_besecondary" based_on="wpn_fps_pis_x_g17" unit="units/pd2_dlc_butcher_mods/weapons/wpn_fps_pis_x_g17/wpn_fps_pis_x_g17"> 
@@ -4346,7 +4346,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_usp_besecondary" based_on="x_usp" name_id="bm_w_x_usp" desc_id ="bm_w_x_usp_desc" description_id="des_x_usp"> 
+		<weapon id="x_usp_besecondary" based_on="x_usp" name_id="bm_w_x_usp" desc_id ="bm_w_x_usp_desc" description_id="des_x_usp"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_x_usp_besecondary" based_on="wpn_fps_pis_x_usp" unit="units/pd2_dlc_butcher_mods/weapons/wpn_fps_pis_x_usp/wpn_fps_pis_x_usp"> 
@@ -4390,7 +4390,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="flamethrower_mk2_besecondary" based_on="flamethrower_mk2" name_id="bm_w_flamethrower_mk2" desc_id ="bm_w_flamethrower_mk2_desc" description_id="des_flamethrower_mk2"> 
+		<weapon id="flamethrower_mk2_besecondary" based_on="flamethrower_mk2" name_id="bm_w_flamethrower_mk2" desc_id ="bm_w_flamethrower_mk2_desc" description_id="des_flamethrower_mk2" global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_fla_mk2_besecondary" based_on="wpn_fps_fla_mk2" unit="units/pd2_dlc_bbq/weapons/wpn_fps_fla_mk2/wpn_fps_fla_mk2"> 
@@ -4417,7 +4417,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m32_besecondary" based_on="m32" name_id="bm_w_m32" desc_id ="bm_w_m32_desc" description_id="des_m32"> 
+		<weapon id="m32_besecondary" based_on="m32" name_id="bm_w_m32" desc_id ="bm_w_m32_desc" description_id="des_m32" global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_gre_m32_besecondary" based_on="wpn_fps_gre_m32" unit="units/pd2_dlc_bbq/weapons/wpn_fps_gre_m32/wpn_fps_gre_m32"> 
@@ -4472,7 +4472,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="aa12_besecondary" based_on="aa12" name_id="bm_w_aa12" desc_id ="bm_w_aa12_desc" description_id="des_aa12"> 
+		<weapon id="aa12_besecondary" based_on="aa12" name_id="bm_w_aa12" desc_id ="bm_w_aa12_desc" description_id="des_aa12" global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_aa12_besecondary" based_on="wpn_fps_sho_aa12" unit="units/pd2_dlc_bbq/weapons/wpn_fps_sho_aa12/wpn_fps_sho_aa12"> 
@@ -4537,7 +4537,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="peacemaker_besecondary" based_on="peacemaker" name_id="bm_w_peacemaker" desc_id ="bm_w_peacemaker_desc" description_id="des_peacemaker"> 
+		<weapon id="peacemaker_besecondary" based_on="peacemaker" name_id="bm_w_peacemaker" desc_id ="bm_w_peacemaker_desc" description_id="des_peacemaker" global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_peacemaker_besecondary" based_on="wpn_fps_pis_peacemaker" unit="units/pd2_dlc_west/weapons/wpn_fps_pis_peacemaker/wpn_fps_pis_peacemaker"> 
@@ -4565,7 +4565,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="winchester1874_besecondary" based_on="winchester1874" name_id="bm_w_winchester1874" desc_id ="bm_w_winchester1874_desc" description_id="des_winchester1874"> 
+		<weapon id="winchester1874_besecondary" based_on="winchester1874" name_id="bm_w_winchester1874" desc_id ="bm_w_winchester1874_desc" description_id="des_winchester1874" global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_winchester_besecondary" based_on="wpn_fps_snp_winchester" unit="units/pd2_dlc_west/weapons/wpn_fps_snp_winchester/wpn_fps_snp_winchester"> 
@@ -4593,7 +4593,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="plainsrider_besecondary" based_on="plainsrider" name_id="bm_w_plainsrider" desc_id ="bm_w_plainsrider_desc" description_id="des_plainsrider"> 
+		<weapon id="plainsrider_besecondary" based_on="plainsrider" name_id="bm_w_plainsrider" desc_id ="bm_w_plainsrider_desc" description_id="des_plainsrider" global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_bow_plainsrider_besecondary" based_on="wpn_fps_bow_plainsrider" unit="units/pd2_dlc_west/weapons/wpn_fps_bow_plainsrider/wpn_fps_bow_plainsrider"> 
@@ -4619,7 +4619,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mateba_besecondary" based_on="mateba" name_id="bm_w_mateba" desc_id ="bm_w_mateba_desc" description_id="des_mateba"> 
+		<weapon id="mateba_besecondary" based_on="mateba" name_id="bm_w_mateba" desc_id ="bm_w_mateba_desc" description_id="des_mateba" global_value="arena" texture_bundle_folder="dlc_arena"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_2006m_besecondary" based_on="wpn_fps_pis_2006m" unit="units/pd2_dlc_arena/weapons/wpn_fps_pis_2006m/wpn_fps_pis_2006m"> 
@@ -4653,7 +4653,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="asval_besecondary" based_on="asval" name_id="bm_w_asval" desc_id ="bm_w_asval_desc" description_id="des_asval"> 
+		<weapon id="asval_besecondary" based_on="asval" name_id="bm_w_asval" desc_id ="bm_w_asval_desc" description_id="des_asval" global_value="character_pack_sokol" texture_bundle_folder="character_pack_sokol"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_asval_besecondary" based_on="wpn_fps_ass_asval" unit="units/pd2_dlc_character_sokol/weapons/wpn_fps_ass_asval/wpn_fps_ass_asval"> 
@@ -4705,7 +4705,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sub2000_besecondary" based_on="sub2000" name_id="bm_w_sub2000" desc_id ="bm_w_sub2000_desc" description_id="des_sub2000"> 
+		<weapon id="sub2000_besecondary" based_on="sub2000" name_id="bm_w_sub2000" desc_id ="bm_w_sub2000_desc" description_id="des_sub2000" global_value="kenaz" texture_bundle_folder="kenaz"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_sub2000_besecondary" based_on="wpn_fps_ass_sub2000" unit="units/pd2_dlc_casino/weapons/wpn_fps_ass_sub2000/wpn_fps_ass_sub2000"> 
@@ -4770,7 +4770,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hunter_besecondary" based_on="hunter" name_id="bm_w_hunter" desc_id ="bm_w_hunter_desc" description_id="des_hunter"> 
+		<weapon id="hunter_besecondary" based_on="hunter" name_id="bm_w_hunter" desc_id ="bm_w_hunter_desc" description_id="des_hunter" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_bow_hunter_besecondary" based_on="wpn_fps_bow_hunter" unit="units/pd2_dlc_turtles/weapons/wpn_fps_bow_hunter/wpn_fps_bow_hunter"> 
@@ -4804,7 +4804,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="wa2000_besecondary" based_on="wa2000" name_id="bm_w_wa2000" desc_id ="bm_w_wa2000_desc" description_id="des_wa2000"> 
+		<weapon id="wa2000_besecondary" based_on="wa2000" name_id="bm_w_wa2000" desc_id ="bm_w_wa2000_desc" description_id="des_wa2000" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_wa2000_besecondary" based_on="wpn_fps_snp_wa2000" unit="units/pd2_dlc_turtles/weapons/wpn_fps_snp_wa2000/wpn_fps_snp_wa2000"> 
@@ -4861,7 +4861,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="polymer_besecondary" based_on="polymer" name_id="bm_w_polymer" desc_id ="bm_w_polymer_desc" description_id="des_polymer"> 
+		<weapon id="polymer_besecondary" based_on="polymer" name_id="bm_w_polymer" desc_id ="bm_w_polymer_desc" description_id="des_polymer" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_polymer_besecondary" based_on="wpn_fps_smg_polymer" unit="units/pd2_dlc_turtles/weapons/wpn_fps_smg_polymer/wpn_fps_smg_polymer"> 
@@ -4937,7 +4937,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="arblast_besecondary" based_on="arblast" name_id="bm_w_arblast" desc_id ="bm_w_arblast_desc" description_id="des_arblast"> 
+		<weapon id="arblast_besecondary" based_on="arblast" name_id="bm_w_arblast" desc_id ="bm_w_arblast_desc" description_id="des_arblast" global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_bow_arblast_besecondary" based_on="wpn_fps_bow_arblast" unit="units/pd2_dlc_steel/weapons/wpn_fps_bow_arblast/wpn_fps_bow_arblast"> 
@@ -4964,7 +4964,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="long_besecondary" based_on="long" name_id="bm_w_long" desc_id ="bm_w_long_desc" description_id="des_long"> 
+		<weapon id="long_besecondary" based_on="long" name_id="bm_w_long" desc_id ="bm_w_long_desc" description_id="des_long" global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_bow_long_besecondary" based_on="wpn_fps_bow_long" unit="units/pd2_dlc_steel/weapons/wpn_fps_bow_long/wpn_fps_bow_long"> 
@@ -4989,7 +4989,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="frankish_besecondary" based_on="frankish" name_id="bm_w_frankish" desc_id ="bm_w_frankish_desc" description_id="des_frankish"> 
+		<weapon id="frankish_besecondary" based_on="frankish" name_id="bm_w_frankish" desc_id ="bm_w_frankish_desc" description_id="des_frankish" global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_bow_frankish_besecondary" based_on="wpn_fps_bow_frankish" unit="units/pd2_dlc_steel/weapons/wpn_fps_bow_frankish/wpn_fps_bow_frankish"> 
@@ -5016,7 +5016,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="baka_besecondary" based_on="baka" name_id="bm_w_baka" desc_id ="bm_w_baka_desc" description_id="des_baka"> 
+		<weapon id="baka_besecondary" based_on="baka" name_id="bm_w_baka" desc_id ="bm_w_baka_desc" description_id="des_baka" global_value="dragon" texture_bundle_folder="dragon"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_baka_besecondary" based_on="wpn_fps_smg_baka" unit="units/pd2_dlc_dragon/weapons/wpn_fps_smg_baka/wpn_fps_smg_baka"> 
@@ -5065,7 +5065,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="par_besecondary" based_on="par" name_id="bm_w_par" desc_id ="bm_w_par_desc" description_id="des_par"> 
+		<weapon id="par_besecondary" based_on="par" name_id="bm_w_par" desc_id ="bm_w_par_desc" description_id="des_par"  texture_bundle_folder="par"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_lmg_par_besecondary" based_on="wpn_fps_lmg_par" unit="units/pd2_dlc_par/weapons/wpn_fps_lmg_par/wpn_fps_lmg_par"> 
@@ -5111,7 +5111,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="model70_besecondary" based_on="model70" name_id="bm_w_model70" desc_id ="bm_w_model70_desc" description_id="des_model70"> 
+		<weapon id="model70_besecondary" based_on="model70" name_id="bm_w_model70" desc_id ="bm_w_model70_desc" description_id="des_model70"  texture_bundle_folder="berry"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_model70_besecondary" based_on="wpn_fps_snp_model70" unit="units/pd2_dlc_berry/weapons/wpn_fps_snp_model70/wpn_fps_snp_model70"> 
@@ -5167,7 +5167,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sparrow_besecondary" based_on="sparrow" name_id="bm_w_sparrow" desc_id ="bm_w_sparrow_desc" description_id="des_sparrow"> 
+		<weapon id="sparrow_besecondary" based_on="sparrow" name_id="bm_w_sparrow" desc_id ="bm_w_sparrow_desc" description_id="des_sparrow" global_value="berry" texture_bundle_folder="rip"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_sparrow_besecondary" based_on="wpn_fps_pis_sparrow" unit="units/pd2_dlc_rip/weapons/wpn_fps_pis_sparrow/wpn_fps_pis_sparrow"> 
@@ -5219,7 +5219,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m37_besecondary" based_on="m37" name_id="bm_w_m37" desc_id ="bm_w_m37_desc" description_id="des_m37"> 
+		<weapon id="m37_besecondary" based_on="m37" name_id="bm_w_m37" desc_id ="bm_w_m37_desc" description_id="des_m37" global_value="peta" texture_bundle_folder="peta"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_shot_m37_besecondary" based_on="wpn_fps_shot_m37" unit="units/pd2_dlc_peta/weapons/wpn_fps_shot_m37/wpn_fps_shot_m37"> 
@@ -5264,7 +5264,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="china_besecondary" based_on="china" name_id="bm_w_china" desc_id ="bm_w_china_desc" description_id="des_china"> 
+		<weapon id="china_besecondary" based_on="china" name_id="bm_w_china" desc_id ="bm_w_china_desc" description_id="des_china" global_value="pal" texture_bundle_folder="lupus"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_gre_china_besecondary" based_on="wpn_fps_gre_china" unit="units/pd2_dlc_lupus/weapons/wpn_fps_gre_china/wpn_fps_gre_china"> 
@@ -5296,7 +5296,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sr2_besecondary" based_on="sr2" name_id="bm_w_sr2" desc_id ="bm_w_sr2_desc" description_id="des_sr2"> 
+		<weapon id="sr2_besecondary" based_on="sr2" name_id="bm_w_sr2" desc_id ="bm_w_sr2_desc" description_id="des_sr2"  texture_bundle_folder="coco"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_sr2_besecondary" based_on="wpn_fps_smg_sr2" unit="units/pd2_dlc_coco/weapons/wpn_fps_smg_sr2/wpn_fps_smg_sr2"> 
@@ -5361,7 +5361,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_sr2_besecondary" based_on="x_sr2" name_id="bm_w_x_sr2" desc_id ="bm_w_x_sr2_desc" description_id="des_x_sr2"> 
+		<weapon id="x_sr2_besecondary" based_on="x_sr2" name_id="bm_w_x_sr2" desc_id ="bm_w_x_sr2_desc" description_id="des_x_sr2"  texture_bundle_folder="coco"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_x_sr2_besecondary" based_on="wpn_fps_smg_x_sr2" unit="units/pd2_dlc_coco/weapons/wpn_fps_smg_x_sr2/wpn_fps_smg_x_sr2"> 
@@ -5412,7 +5412,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="pl14_besecondary" based_on="pl14" name_id="bm_w_pl14" desc_id ="bm_w_pl14_desc" description_id="des_pl14"> 
+		<weapon id="pl14_besecondary" based_on="pl14" name_id="bm_w_pl14" desc_id ="bm_w_pl14_desc" description_id="des_pl14"  texture_bundle_folder="mad"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_pl14_besecondary" based_on="wpn_fps_pis_pl14" unit="units/pd2_dlc_mad/weapons/wpn_fps_pis_pl14/wpn_fps_pis_pl14"> 
@@ -5455,7 +5455,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_mp5_besecondary" based_on="x_mp5" name_id="bm_w_x_mp5" desc_id ="bm_w_x_mp5_desc" description_id="des_x_mp5"> 
+		<weapon id="x_mp5_besecondary" based_on="x_mp5" name_id="bm_w_x_mp5" desc_id ="bm_w_x_mp5_desc" description_id="des_x_mp5"  texture_bundle_folder="dos"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_x_mp5_besecondary" based_on="wpn_fps_smg_x_mp5" unit="units/pd2_dlc_dos/weapons/wpn_fps_smg_x_mp5/wpn_fps_smg_x_mp5"> 
@@ -5504,7 +5504,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_akmsu_besecondary" based_on="x_akmsu" name_id="bm_w_x_akmsu" desc_id ="bm_w_x_akmsu_desc" description_id="des_x_akmsu"> 
+		<weapon id="x_akmsu_besecondary" based_on="x_akmsu" name_id="bm_w_x_akmsu" desc_id ="bm_w_x_akmsu_desc" description_id="des_x_akmsu"  texture_bundle_folder="dos"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_x_akmsu_besecondary" based_on="wpn_fps_smg_x_akmsu" unit="units/pd2_dlc_dos/weapons/wpn_fps_smg_x_akmsu/wpn_fps_smg_x_akmsu"> 
@@ -5562,7 +5562,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="tecci_besecondary" based_on="tecci" name_id="bm_w_tecci" desc_id ="bm_w_tecci_desc" description_id="des_tecci"> 
+		<weapon id="tecci_besecondary" based_on="tecci" name_id="bm_w_tecci" desc_id ="bm_w_tecci_desc" description_id="des_tecci" global_value="opera" texture_bundle_folder="opera"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_tecci_besecondary" based_on="wpn_fps_ass_tecci" unit="units/pd2_dlc_opera/weapons/wpn_fps_ass_tecci/wpn_fps_ass_tecci"> 
@@ -5650,7 +5650,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hajk_besecondary" based_on="hajk" name_id="bm_w_hajk" desc_id ="bm_w_hajk_desc" description_id="des_hajk"> 
+		<weapon id="hajk_besecondary" based_on="hajk" name_id="bm_w_hajk" desc_id ="bm_w_hajk_desc" description_id="des_hajk" global_value="born" texture_bundle_folder="born"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_hajk_besecondary" based_on="wpn_fps_smg_hajk" unit="units/pd2_dlc_born/weapons/wpn_fps_smg_hajk/wpn_fps_smg_hajk"> 
@@ -5723,7 +5723,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="boot_besecondary" based_on="boot" name_id="bm_w_boot" desc_id ="bm_w_boot_desc" description_id="des_boot"> 
+		<weapon id="boot_besecondary" based_on="boot" name_id="bm_w_boot" desc_id ="bm_w_boot_desc" description_id="des_boot" global_value="wild" texture_bundle_folder="wild"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_boot_besecondary" based_on="wpn_fps_sho_boot" unit="units/pd2_dlc_wild/weapons/wpn_fps_sho_boot/wpn_fps_sho_boot"> 
@@ -5776,7 +5776,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="packrat_besecondary" based_on="packrat" name_id="bm_w_packrat" desc_id ="bm_w_packrat_desc" description_id="des_packrat"> 
+		<weapon id="packrat_besecondary" based_on="packrat" name_id="bm_w_packrat" desc_id ="bm_w_packrat_desc" description_id="des_packrat" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_pis_packrat_besecondary" based_on="wpn_fps_pis_packrat" unit="units/pd2_dlc_pim/weapons/wpn_fps_pis_packrat/wpn_fps_pis_packrat"> 
@@ -5824,7 +5824,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="schakal_besecondary" based_on="schakal" name_id="bm_w_schakal" desc_id ="bm_w_schakal_desc" description_id="des_schakal"> 
+		<weapon id="schakal_besecondary" based_on="schakal" name_id="bm_w_schakal" desc_id ="bm_w_schakal_desc" description_id="des_schakal" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_smg_schakal_besecondary" based_on="wpn_fps_smg_schakal" unit="units/pd2_dlc_pim/weapons/wpn_fps_smg_schakal/wpn_fps_smg_schakal"> 
@@ -5899,7 +5899,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="desertfox_besecondary" based_on="desertfox" name_id="bm_w_desertfox" desc_id ="bm_w_desertfox_desc" description_id="des_desertfox"> 
+		<weapon id="desertfox_besecondary" based_on="desertfox" name_id="bm_w_desertfox" desc_id ="bm_w_desertfox_desc" description_id="des_desertfox" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_snp_desertfox_besecondary" based_on="wpn_fps_snp_desertfox" unit="units/pd2_dlc_pim/weapons/wpn_fps_snp_desertfox/wpn_fps_snp_desertfox"> 
@@ -5951,7 +5951,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_packrat_besecondary" based_on="x_packrat" name_id="bm_w_x_packrat" desc_id ="bm_w_x_packrat_desc" description_id="des_x_packrat"> 
+		<weapon id="x_packrat_besecondary" based_on="x_packrat" name_id="bm_w_x_packrat" desc_id ="bm_w_x_packrat_desc" description_id="des_x_packrat" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_x_packrat_besecondary" based_on="wpn_fps_x_packrat" unit="units/pd2_dlc_pim/weapons/wpn_fps_x_packrat/wpn_fps_x_packrat"> 
@@ -5998,7 +5998,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rota_besecondary" based_on="rota" name_id="bm_w_rota" desc_id ="bm_w_rota_desc" description_id="des_rota"> 
+		<weapon id="rota_besecondary" based_on="rota" name_id="bm_w_rota" desc_id ="bm_w_rota_desc" description_id="des_rota" global_value="rota" texture_bundle_folder="rota"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_sho_rota_besecondary" based_on="wpn_fps_sho_rota" unit="units/pd2_dlc_rota/weapons/wpn_fps_sho_rota/wpn_fps_sho_rota"> 
@@ -6065,7 +6065,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="arbiter_besecondary" based_on="arbiter" name_id="bm_w_arbiter" desc_id ="bm_w_arbiter_desc" description_id="des_arbiter"> 
+		<weapon id="arbiter_besecondary" based_on="arbiter" name_id="bm_w_arbiter" desc_id ="bm_w_arbiter_desc" description_id="des_arbiter" global_value="tango" texture_bundle_folder="tng"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_gre_arbiter_besecondary" based_on="wpn_fps_gre_arbiter" unit="units/pd2_dlc_tng/weapons/wpn_fps_gre_arbiter/wpn_fps_gre_arbiter"> 
@@ -6119,7 +6119,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="contraband_besecondary" based_on="contraband" name_id="bm_w_contraband" desc_id ="bm_w_contraband_desc" description_id="des_contraband"> 
+		<weapon id="contraband_besecondary" based_on="contraband" name_id="bm_w_contraband" desc_id ="bm_w_contraband_desc" description_id="des_contraband" global_value="chico" texture_bundle_folder="chico"> 
 			<use_data selection_index="1"/> 
 		</weapon> 
 		<factory id="wpn_fps_ass_contraband_besecondary" based_on="wpn_fps_ass_contraband" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband/wpn_fps_ass_contraband"> 
@@ -6189,7 +6189,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ray_besecondary" based_on="ray" name_id="bm_w_ray" desc_id ="bm_w_ray_desc" description_id="des_ray"> 
+		<weapon id="ray_besecondary" based_on="ray" name_id="bm_w_ray" desc_id ="bm_w_ray_desc" description_id="des_ray" global_value="friend" texture_bundle_folder="friend"> 
 			<use_data selection_index="2"/> 
 		</weapon> 
 		<factory id="wpn_fps_gre_ray_besecondary" based_on="wpn_fps_gre_ray" unit="units/pd2_dlc_friend/weapons/wpn_fps_gre_ray/wpn_fps_gre_ray"> 
