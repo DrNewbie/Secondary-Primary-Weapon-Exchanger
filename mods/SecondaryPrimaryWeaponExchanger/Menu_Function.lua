@@ -20,21 +20,52 @@ end)
 
 Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", function( menu_manager, nodes )
 	MenuCallbackHandler.SecondaryPrimaryWeapon_menu_forced_update_callback = function(self, item)
-		os.remove("mods/SecondaryPrimaryWeaponExchanger/weapons.txt")
-		local file = io.open("mods/SecondaryPrimaryWeaponExchanger/weapons.txt", "w")
+		local _file = io.open('assets/mod_overrides/SecondaryPrimaryWeaponExchanger/main.xml', "w")
 		local banned = {saw = true, saw_secondary = true}
-		if file then
+		if _file then
+			_file:write('<table name=\"SecondaryPrimaryWeaponExchanger\"> \n')
 			local _, _, _, weapon_list, _, _, _, _, _ = tweak_data.statistics:statistics_table()
-			local factory_id = ""
-			for _, weapon_id in pairs(weapon_list) do
-				if not weapon_id:find("_duplicate") and not banned[weapon_id] then
-					factory_id = managers.weapon_factory:get_factory_id_by_weapon_id(weapon_id)
-					if factory_id then
-						file:write("".. weapon_id .." = {true, \"".. factory_id .."\"}, \n")				
+			local _factory_id = ""
+			for _, _weapon_id in pairs(weapon_list) do
+				if not banned[_weapon_id] then
+					_factory_id = managers.weapon_factory:get_factory_id_by_weapon_id(_weapon_id)
+					if _factory_id then
+						local _wd = tweak_data.weapon[_weapon_id] or nil
+						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
+						if _wd and _wfd then
+							_file:write('	<WeaponNew> \n')
+							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'"> \n')
+							if _wd.use_data.selection_index == 1 then
+								_file:write('			<use_data selection_index="2"/> \n')
+							else
+								_file:write('			<use_data selection_index="1"/> \n')
+							end
+							_file:write('		</weapon> \n')
+							_file:write('		<factory id="'.. _factory_id ..'_besecondary" based_on="'.. _factory_id ..'" unit="'.. _wfd.unit ..'"> \n')
+							_file:write('			<default_blueprint> \n')
+							for _, _part in pairs(_wfd.default_blueprint) do
+								_file:write('				<value_node value="'.. _part ..'"/> \n')
+							end
+							_file:write('			</default_blueprint> \n')
+							_file:write('			<uses_parts> \n')
+							for _, _part in pairs(_wfd.uses_parts) do
+								_file:write('				<value_node value="'.. _part ..'"/> \n')
+							end
+							_file:write('			</uses_parts> \n')
+							_file:write('		</factory> \n')
+							_file:write('		<stance/> \n')
+							_file:write('	</WeaponNew> \n')
+						end
 					end
 				end
 			end
-			file:close()
+			_file:write('	<Hooks directory="Hooks"> \n')
+			_file:write('		<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/> \n')
+			_file:write('		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/> \n')
+			_file:write('		<hook file="playerinventory.lua" source_file="lib/units/beings/player/playerinventory"/> \n')
+			_file:write('	</Hooks> \n')
+			_file:write('</table>')
+			_file:close()
 			local _dialog_data = {
 				title = "[Secondary\\Primary Weapon Exchanger]",
 				text = "Please reboot the game.",
