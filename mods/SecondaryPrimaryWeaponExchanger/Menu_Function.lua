@@ -1,10 +1,3 @@
-_G.SecondaryPrimaryWeapon = _G.SecondaryPrimaryWeapon or {}
-SecondaryPrimaryWeapon.options_menu = "SecondaryPrimaryWeapon_menu"
-SecondaryPrimaryWeapon.ModPath = ModPath
-SecondaryPrimaryWeapon.SaveFile = SecondaryPrimaryWeapon.SaveFile or SavePath .. "SecondaryPrimaryWeapon.txt"
-SecondaryPrimaryWeapon.ModOptions = SecondaryPrimaryWeapon.ModPath .. "menus/modoptions.txt"
-SecondaryPrimaryWeapon.settings = SecondaryPrimaryWeapon.settings or {}
-
 Hooks:Add("LocalizationManagerPostInit", "SecondaryPrimaryWeapon_loc", function(loc)
 	LocalizationManager:add_localized_strings({
 		["SecondaryPrimaryWeapon_menu_title"] = "Secondary\\Primary Weapon Exchanger",
@@ -15,7 +8,7 @@ Hooks:Add("LocalizationManagerPostInit", "SecondaryPrimaryWeapon_loc", function(
 end)
 
 Hooks:Add("MenuManagerSetupCustomMenus", "SecondaryPrimaryWeaponOptions", function( menu_manager, nodes )
-	MenuHelper:NewMenu( SecondaryPrimaryWeapon.options_menu )
+	MenuHelper:NewMenu( "SecondaryPrimaryWeapon_menu" )
 end)
 
 Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", function( menu_manager, nodes )
@@ -32,9 +25,9 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 					if _factory_id then
 						local _wd = tweak_data.weapon[_weapon_id] or nil
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
-						local _locked = ''
-						_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 						if _wd and _wfd then
+							local _locked = ''
+							_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 							_file:write('	<WeaponNew> \n')
 							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _locked..'> \n')
 							if _wd.use_data.selection_index == 1 then
@@ -82,13 +75,13 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 		title = "SecondaryPrimaryWeapon_menu_forced_update_title",
 		desc = "SecondaryPrimaryWeapon_menu_forced_update_desc",
 		callback = "SecondaryPrimaryWeapon_menu_forced_update_callback",
-		menu_id = SecondaryPrimaryWeapon.options_menu,
+		menu_id = "SecondaryPrimaryWeapon_menu",
 	})
 end)
 
 Hooks:Add("MenuManagerBuildCustomMenus", "SecondaryPrimaryWeaponOptions", function(menu_manager, nodes)
-	nodes[SecondaryPrimaryWeapon.options_menu] = MenuHelper:BuildMenu( SecondaryPrimaryWeapon.options_menu )
-	MenuHelper:AddMenuItem( MenuHelper.menus.lua_mod_options_menu, SecondaryPrimaryWeapon.options_menu, "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc")
+	nodes["SecondaryPrimaryWeapon_menu"] = MenuHelper:BuildMenu( "SecondaryPrimaryWeapon_menu" )
+	MenuHelper:AddMenuItem( MenuHelper.menus.lua_mod_options_menu, "SecondaryPrimaryWeapon_menu", "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc")
 end)
 
 Announcer:AddHostMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
