@@ -2,7 +2,8 @@
 	"name":"Secondary/Primary Weapon Exchanger",
 	"author":"Dr_Newbie",
 	"contact":"This Mod can clone weapon and change it from secondary to primary or primary to secondary",
-	"version":"13",
+	"version":"14",
+	"priority": 1,
 	"libraries" : [
 		{
 			"display_name":"Announcer",
@@ -10,7 +11,7 @@
 			"optional":"false"
 		}
 	],
-	"hooks" : [		
+	"hooks" : [
 		{ "hook_id":"lib/managers/menumanager", "script_path":"Menu_Function.lua"}
 	]
 }

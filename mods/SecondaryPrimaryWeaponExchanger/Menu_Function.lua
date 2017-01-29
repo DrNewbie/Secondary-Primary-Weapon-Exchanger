@@ -43,14 +43,36 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
 						if _wd and _wfd then
 							local _locked = ''
+							_base_states = string.format('%s %s', (_wd.DAMAGE and 'DAMAGE="'.. _wd.DAMAGE ..'"' or ''), 
+								(_wd.CLIP_AMMO_MAX and 'CLIP_AMMO_MAX="'.. _wd.CLIP_AMMO_MAX ..'"' or ''), 
+								(_wd.NR_CLIPS_MAX and 'NR_CLIPS_MAX="'.. _wd.NR_CLIPS_MAX ..'"' or ''), 
+								(_wd.AMMO_MAX and 'AMMO_MAX="'.. _wd.AMMO_MAX ..'"' or ''))
 							_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 							_file:write('	<WeaponNew> \n')
-							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" category="'.. _wd.category ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _locked..'> \n')
+							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" category="'.. _wd.category ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _base_states..' '.. _locked..'> \n')
+							--selection_index
 							if _wd.use_data.selection_index == 1 then
 								_file:write('			<use_data selection_index="2"/> \n')
 							else
 								_file:write('			<use_data selection_index="1"/> \n')
 							end
+							--stats
+							if _wd.stats and type(_wd.stats) == "table" then
+								local stats = ''
+								for _stat, _value in pairs(_wd.stats) do
+									stats = stats .. ' '.. _stat ..'="'.. _value ..'"'
+								end
+								_file:write('			<stats'.. stats ..'/> \n')
+							end
+							--stats_modifiers
+							if _wd.stats_modifiers and type(_wd.stats_modifiers) == "table" then
+								local stats_modifiers = ''
+								for _stat, _value in pairs(_wd.stats_modifiers) do
+									stats_modifiers = stats_modifiers .. ' '.. _stat ..'="'.. _value ..'"'
+								end
+								_file:write('			<stats_modifiers'.. stats_modifiers ..'/> \n')
+							end
+							--default_blueprint
 							_file:write('		</weapon> \n')
 							_file:write('		<factory id="'.. _factory_id ..'_besecondary" based_on="'.. _factory_id ..'" unit="'.. _wfd.unit ..'"> \n')
 							_file:write('			<default_blueprint> \n')
@@ -58,6 +80,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 								_file:write('				<value_node value="'.. _part ..'"/> \n')
 							end
 							_file:write('			</default_blueprint> \n')
+							--uses_parts
 							_file:write('			<uses_parts> \n')
 							for _, _part in pairs(_wfd.uses_parts) do
 								_file:write('				<value_node value="'.. _part ..'"/> \n')
