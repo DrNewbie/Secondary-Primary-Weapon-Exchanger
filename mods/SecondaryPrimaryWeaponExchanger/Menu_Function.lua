@@ -25,6 +25,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 		if _file then
 			_file:write('<table name=\"SecondaryPrimaryWeaponExchanger\"> \n')
 			local _, _, _, _weapon_lists, _, _, _, _, _ = tweak_data.statistics:statistics_table()
+			local _factory_id = ""
 			if item.update_all then
 				_weapon_lists = {}
 				for _weapon_id, _ in pairs(tweak_data.weapon) do
@@ -34,7 +35,6 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 					end
 				end
 			end
-			local _factory_id = ""
 			for _, _weapon_id in pairs(_weapon_lists) do
 				if not banned[_weapon_id] and not _weapon_id:find('_besecondary') then
 					_factory_id = managers.weapon_factory:get_factory_id_by_weapon_id(_weapon_id)
