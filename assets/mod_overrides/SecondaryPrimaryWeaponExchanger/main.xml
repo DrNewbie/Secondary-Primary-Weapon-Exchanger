@@ -1,6 +1,7 @@
 <table name="SecondaryPrimaryWeaponExchanger"> 
+	<AssetUpdates id="15378" name="asset_updates" folder_name="SecondaryPrimaryWeaponExchanger" provider="lastbullet"/> 
 	<WeaponNew> 
-		<weapon id="ak5_besecondary" based_on="ak5" category="assault_rifle" name_id="bm_w_ak5" desc_id ="bm_w_ak5_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="ak5_besecondary" based_on="ak5" category="assault_rifle" name_id="bm_w_ak5" desc_id ="bm_w_ak5_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="m4"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="10" value="1" recoil="16" spread="16" damage="38"/> 
 		</weapon> 
@@ -66,6 +67,8 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -75,7 +78,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ak74_besecondary" based_on="ak74" category="assault_rifle" name_id="bm_w_ak74" desc_id ="bm_w_ak74_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="ak74_besecondary" based_on="ak74" category="assault_rifle" name_id="bm_w_ak74" desc_id ="bm_w_ak74_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="ak47"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="11" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="10" value="1" recoil="16" spread="13" damage="40"/> 
 		</weapon> 
@@ -167,6 +170,9 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ak_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -176,7 +182,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akm_besecondary" based_on="akm" category="assault_rifle" name_id="bm_w_akm" desc_id ="bm_w_akm_desc" description_id="des_ak47" DAMAGE="1.25" CLIP_AMMO_MAX="30"  > 
+		<weapon id="akm_besecondary" based_on="akm" category="assault_rifle" name_id="bm_w_akm" desc_id ="bm_w_akm_desc" description_id="des_ak47" DAMAGE="1.25" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="ak47"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="13" extra_ammo="6" suppression="8" value="1" recoil="12" spread="16" damage="80"/> 
 		</weapon> 
@@ -260,6 +266,8 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ak_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -269,7 +277,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akmsu_besecondary" based_on="akmsu" category="smg" name_id="bm_w_akmsu" desc_id ="bm_w_akmsu_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="akmsu_besecondary" based_on="akmsu" category="smg" name_id="bm_w_akmsu" desc_id ="bm_w_akmsu_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="ak47"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="21" extra_ammo="6" suppression="8" value="1" recoil="12" spread="16" damage="80"/> 
 		</weapon> 
@@ -344,6 +352,7 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ak_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -353,7 +362,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="amcar_besecondary" based_on="amcar" category="assault_rifle" name_id="bm_w_amcar" desc_id ="bm_w_amcar_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="20"  > 
+		<weapon id="amcar_besecondary" based_on="amcar" category="assault_rifle" name_id="bm_w_amcar" desc_id ="bm_w_amcar_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="11" AMMO_MAX="220" weapon_hold="m4"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="21" extra_ammo="6" suppression="10" value="1" recoil="20" spread="10" damage="36"/> 
 		</weapon> 
@@ -415,6 +424,9 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -424,7 +436,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="aug_besecondary" based_on="aug" category="assault_rifle" name_id="bm_w_aug" desc_id ="bm_w_aug_desc" description_id="des_aug" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="aug_besecondary" based_on="aug" category="assault_rifle" name_id="bm_w_aug" desc_id ="bm_w_aug_desc" description_id="des_aug" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150"   > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="15" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="10" value="1" recoil="11" spread="17" damage="38"/> 
 		</weapon> 
@@ -483,6 +495,8 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_ass_aug_m_quick"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -492,7 +506,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="b92fs_besecondary" based_on="b92fs" category="pistol" name_id="bm_w_b92fs" desc_id ="bm_w_b92fs_desc" description_id="des_b92fs" DAMAGE="1" CLIP_AMMO_MAX="14"  > 
+		<weapon id="b92fs_besecondary" based_on="b92fs" category="pistol" name_id="bm_w_b92fs" desc_id ="bm_w_b92fs_desc" description_id="des_b92fs" DAMAGE="1" CLIP_AMMO_MAX="14" NR_CLIPS_MAX="11" AMMO_MAX="154" weapon_hold="glock"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="15" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="17" value="1" recoil="16" spread="15" damage="37"/> 
 		</weapon> 
@@ -547,7 +561,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="colt_1911_besecondary" based_on="colt_1911" category="pistol" name_id="bm_w_colt_1911" desc_id ="bm_w_colt_1911_desc" description_id="des_colt_1911" DAMAGE="1" CLIP_AMMO_MAX="10"  > 
+		<weapon id="colt_1911_besecondary" based_on="colt_1911" category="pistol" name_id="bm_w_colt_1911" desc_id ="bm_w_colt_1911_desc" description_id="des_colt_1911" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="9" AMMO_MAX="90"   > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="14" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -601,7 +615,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="deagle_besecondary" based_on="deagle" category="pistol" name_id="bm_w_deagle" desc_id ="bm_w_deagle_desc" description_id="des_deagle" DAMAGE="2" CLIP_AMMO_MAX="10"  > 
+		<weapon id="deagle_besecondary" based_on="deagle" category="pistol" name_id="bm_w_deagle" desc_id ="bm_w_deagle_desc" description_id="des_deagle" DAMAGE="2" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="5" AMMO_MAX="50"   > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="20" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="7" value="1" recoil="8" spread="20" damage="120"/> 
 		</weapon> 
@@ -663,6 +677,7 @@
 				<value_node value="wpn_fps_upg_ns_pis_jungle"/> 
 				<value_node value="wpn_fps_pis_deagle_b_legend"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -672,7 +687,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g22c_besecondary" based_on="g22c" category="pistol" name_id="bm_w_g22c" desc_id ="bm_w_g22c_desc" description_id="des_g22c" DAMAGE="1" CLIP_AMMO_MAX="16" global_value="pd2_clan" > 
+		<weapon id="g22c_besecondary" based_on="g22c" category="pistol" name_id="bm_w_g22c" desc_id ="bm_w_g22c_desc" description_id="des_g22c" DAMAGE="1" CLIP_AMMO_MAX="16" NR_CLIPS_MAX="6" AMMO_MAX="96" weapon_hold="glock" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -719,7 +734,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g36_besecondary" based_on="g36" category="assault_rifle" name_id="bm_w_g36" desc_id ="bm_w_g36_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="g36_besecondary" based_on="g36" category="assault_rifle" name_id="bm_w_g36" desc_id ="bm_w_g36_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="8" AMMO_MAX="240"   > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="9" total_ammo_mod="21" reload="11" concealment="19" extra_ammo="6" suppression="11" value="1" recoil="17" spread="11" damage="36"/> 
 		</weapon> 
@@ -782,6 +797,8 @@
 				<value_node value="wpn_fps_upg_g36_fg_long"/> 
 				<value_node value="wpn_fps_ass_g36_m_quick"/> 
 				<value_node value="wpn_fps_upg_g36_b_ultra"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -791,7 +808,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="glock_17_besecondary" based_on="glock_17" category="pistol" name_id="bm_w_glock_17" desc_id ="bm_w_glock_17_desc" description_id="des_glock_17" DAMAGE="1" CLIP_AMMO_MAX="17"  > 
+		<weapon id="glock_17_besecondary" based_on="glock_17" category="pistol" name_id="bm_w_glock_17" desc_id ="bm_w_glock_17_desc" description_id="des_glock_17" DAMAGE="1" CLIP_AMMO_MAX="17" NR_CLIPS_MAX="9" AMMO_MAX="153" weapon_hold="glock"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="16" value="1" recoil="16" spread="14" damage="35"/> 
 		</weapon> 
@@ -834,7 +851,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="glock_18c_besecondary" based_on="glock_18c" category="pistol" name_id="bm_w_glock_18c" desc_id ="bm_w_glock_18c_desc" description_id="des_glock" DAMAGE="1" CLIP_AMMO_MAX="20"  > 
+		<weapon id="glock_18c_besecondary" based_on="glock_18c" category="pistol" name_id="bm_w_glock_18c" desc_id ="bm_w_glock_18c_desc" description_id="des_glock" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="8" AMMO_MAX="160" weapon_hold="glock"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="16" value="1" recoil="16" spread="14" damage="35"/> 
 		</weapon> 
@@ -881,7 +898,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="huntsman_besecondary" based_on="huntsman" category="shotgun" name_id="bm_w_huntsman" desc_id ="bm_w_huntsman_desc" description_id="des_huntsman" DAMAGE="6" CLIP_AMMO_MAX="2"  > 
+		<weapon id="huntsman_besecondary" based_on="huntsman" category="shotgun" name_id="bm_w_huntsman" desc_id ="bm_w_huntsman_desc" description_id="des_huntsman" DAMAGE="6" CLIP_AMMO_MAX="2" NR_CLIPS_MAX="16" AMMO_MAX="32"   > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="7" extra_ammo="6" suppression="2" value="1" recoil="10" spread="16" damage="155"/> 
 			<stats_modifiers damage="1"/> 
@@ -914,7 +931,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m16_besecondary" based_on="m16" category="assault_rifle" name_id="bm_w_m16" desc_id ="bm_w_m16_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="m16_besecondary" based_on="m16" category="assault_rifle" name_id="bm_w_m16" desc_id ="bm_w_m16_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="m4"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="4" alert_size="7" spread_moving="13" total_ammo_mod="21" reload="11" concealment="17" extra_ammo="6" suppression="10" value="1" recoil="9" spread="15" damage="80"/> 
 		</weapon> 
@@ -1003,6 +1020,10 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1012,7 +1033,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mac10_besecondary" based_on="mac10" category="smg" name_id="bm_w_mac10" desc_id ="bm_w_mac10_desc" description_id="des_mac10" DAMAGE="1" CLIP_AMMO_MAX="40"  > 
+		<weapon id="mac10_besecondary" based_on="mac10" category="smg" name_id="bm_w_mac10" desc_id ="bm_w_mac10_desc" description_id="des_mac10" DAMAGE="1" CLIP_AMMO_MAX="40" NR_CLIPS_MAX="4" AMMO_MAX="160" weapon_hold="mac11"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="13" total_ammo_mod="21" reload="11" concealment="27" extra_ammo="6" suppression="14" value="1" recoil="17" spread="13" damage="40"/> 
 		</weapon> 
@@ -1068,6 +1089,7 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_smg_mac10_m_quick"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_smg_cobray_ns_barrelextension"/> 
 				<value_node value="wpn_fps_smg_cobray_ns_silencer"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
@@ -1079,7 +1101,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mp9_besecondary" based_on="mp9" category="smg" name_id="bm_w_mp9" desc_id ="bm_w_mp9_desc" description_id="des_mp9" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="mp9_besecondary" based_on="mp9" category="smg" name_id="bm_w_mp9" desc_id ="bm_w_mp9_desc" description_id="des_mp9" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="7" AMMO_MAX="210"   > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="16" value="1" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -1131,6 +1153,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1140,7 +1163,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_m14_besecondary" based_on="new_m14" category="assault_rifle" name_id="bm_w_m14" desc_id ="bm_w_m14_desc" description_id="des_m14" DAMAGE="2" CLIP_AMMO_MAX="10"  > 
+		<weapon id="new_m14_besecondary" based_on="new_m14" category="assault_rifle" name_id="bm_w_m14" desc_id ="bm_w_m14_desc" description_id="des_m14" DAMAGE="2" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="7" AMMO_MAX="70"   > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="20" total_ammo_mod="21" reload="11" concealment="8" extra_ammo="6" suppression="4" value="1" recoil="10" spread="22" damage="160"/> 
 		</weapon> 
@@ -1197,6 +1220,8 @@
 				<value_node value="wpn_fps_ass_m14_body_lower_legendary"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1206,7 +1231,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_m4_besecondary" based_on="new_m4" category="assault_rifle" name_id="bm_w_m4" desc_id ="bm_w_m4_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="new_m4_besecondary" based_on="new_m4" category="assault_rifle" name_id="bm_w_m4" desc_id ="bm_w_m4_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="m4"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="10" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="10" value="1" recoil="16" spread="12" damage="38"/> 
 		</weapon> 
@@ -1298,6 +1323,10 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1307,7 +1336,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_mp5_besecondary" based_on="new_mp5" category="smg" name_id="bm_w_mp5" desc_id ="bm_w_mp5_desc" description_id="des_mp5" DAMAGE="1" CLIP_AMMO_MAX="30"  > 
+		<weapon id="new_mp5_besecondary" based_on="new_mp5" category="smg" name_id="bm_w_mp5" desc_id ="bm_w_mp5_desc" description_id="des_mp5" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="7" AMMO_MAX="210" weapon_hold="mp5"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="23" extra_ammo="6" suppression="17" value="1" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -1366,6 +1395,7 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_smg_mp5_fg_flash"/> 
 				<value_node value="wpn_fps_smg_mp5_s_folding"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1375,7 +1405,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="new_raging_bull_besecondary" based_on="new_raging_bull" category="pistol" name_id="bm_w_raging_bull" desc_id ="bm_w_raging_bull_desc" description_id="des_new_raging_bull" DAMAGE="2" CLIP_AMMO_MAX="6"  > 
+		<weapon id="new_raging_bull_besecondary" based_on="new_raging_bull" category="pistol" name_id="bm_w_raging_bull" desc_id ="bm_w_raging_bull_desc" description_id="des_new_raging_bull" DAMAGE="2" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="9" AMMO_MAX="54" weapon_hold="raging_bull"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="5" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="7" value="1" recoil="2" spread="20" damage="175"/> 
 		</weapon> 
@@ -1413,6 +1443,7 @@
 				<value_node value="wpn_fps_pis_rage_o_adapter"/> 
 				<value_node value="wpn_fps_pis_rage_lock"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_concealment_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
@@ -1423,7 +1454,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="olympic_besecondary" based_on="olympic" category="smg" name_id="bm_w_olympic" desc_id ="bm_w_olympic_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="25"  > 
+		<weapon id="olympic_besecondary" based_on="olympic" category="smg" name_id="bm_w_olympic" desc_id ="bm_w_olympic_desc" description_id="des_m4" DAMAGE="1" CLIP_AMMO_MAX="25" NR_CLIPS_MAX="6" AMMO_MAX="150" weapon_hold="m4"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="11" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="10" value="1" recoil="17" spread="12" damage="38"/> 
 		</weapon> 
@@ -1509,6 +1540,9 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -1518,7 +1552,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="p90_besecondary" based_on="p90" category="smg" name_id="bm_w_p90" desc_id ="bm_w_p90_desc" description_id="des_p90" DAMAGE="1" CLIP_AMMO_MAX="50"  > 
+		<weapon id="p90_besecondary" based_on="p90" category="smg" name_id="bm_w_p90" desc_id ="bm_w_p90_desc" description_id="des_p90" DAMAGE="1" CLIP_AMMO_MAX="50" NR_CLIPS_MAX="3" AMMO_MAX="150"   > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="25" extra_ammo="6" suppression="12" value="1" recoil="16" spread="14" damage="38"/> 
 		</weapon> 
@@ -1581,7 +1615,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="r870_besecondary" based_on="r870" category="shotgun" name_id="bm_w_r870" desc_id ="bm_w_r870_desc" description_id="des_r870" DAMAGE="6" CLIP_AMMO_MAX="6"  > 
+		<weapon id="r870_besecondary" based_on="r870" category="shotgun" name_id="bm_w_r870" desc_id ="bm_w_r870_desc" description_id="des_r870" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="7" AMMO_MAX="42" weapon_hold="r870_shotgun"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="11" extra_ammo="6" suppression="5" value="1" recoil="9" spread="11" damage="90"/> 
 		</weapon> 
@@ -1646,6 +1680,9 @@
 				<value_node value="wpn_fps_shot_r870_fg_legendary"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -1662,7 +1699,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="saiga_besecondary" based_on="saiga" category="shotgun" name_id="bm_w_saiga" desc_id ="bm_w_saiga_desc" description_id="des_saiga" DAMAGE="6" CLIP_AMMO_MAX="7"  > 
+		<weapon id="saiga_besecondary" based_on="saiga" category="shotgun" name_id="bm_w_saiga" desc_id ="bm_w_saiga_desc" description_id="des_saiga" DAMAGE="6" CLIP_AMMO_MAX="7" NR_CLIPS_MAX="10" AMMO_MAX="70" weapon_hold="saiga"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="13" extra_ammo="6" suppression="5" value="1" recoil="12" spread="8" damage="42"/> 
 		</weapon> 
@@ -1728,6 +1765,7 @@
 				<value_node value="wpn_fps_sho_saiga_fg_holy"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -1744,7 +1782,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="serbu_besecondary" based_on="serbu" category="shotgun" name_id="bm_w_serbu" desc_id ="bm_w_serbu_desc" description_id="des_r870" DAMAGE="6" CLIP_AMMO_MAX="6"  > 
+		<weapon id="serbu_besecondary" based_on="serbu" category="shotgun" name_id="bm_w_serbu" desc_id ="bm_w_serbu_desc" description_id="des_r870" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="7" AMMO_MAX="42" weapon_hold="r870_shotgun"  > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="10" total_ammo_mod="21" reload="11" concealment="23" extra_ammo="6" suppression="5" value="1" recoil="10" spread="13" damage="90"/> 
 		</weapon> 
@@ -1808,6 +1846,9 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -1824,7 +1865,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="usp_besecondary" based_on="usp" category="pistol" name_id="bm_w_usp" desc_id ="bm_w_usp_desc" description_id="des_usp" DAMAGE="1" CLIP_AMMO_MAX="13" global_value="pd2_clan" > 
+		<weapon id="usp_besecondary" based_on="usp" category="pistol" name_id="bm_w_usp" desc_id ="bm_w_usp_desc" description_id="des_usp" DAMAGE="1" CLIP_AMMO_MAX="13" NR_CLIPS_MAX="7" AMMO_MAX="91" weapon_hold="colt_1911" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="16" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -1870,7 +1911,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m45_besecondary" based_on="m45" category="smg" name_id="bm_w_m45" desc_id ="bm_w_m45_desc" description_id="des_m45" DAMAGE="1" CLIP_AMMO_MAX="40" global_value="armored_transport" texture_bundle_folder="dlc1"> 
+		<weapon id="m45_besecondary" based_on="m45" category="smg" name_id="bm_w_m45" desc_id ="bm_w_m45_desc" description_id="des_m45" DAMAGE="1" CLIP_AMMO_MAX="40" NR_CLIPS_MAX="2" AMMO_MAX="80" weapon_hold="m45" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="14" value="5" recoil="12" spread="18" damage="80"/> 
 		</weapon> 
@@ -1933,7 +1974,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="s552_besecondary" based_on="s552" category="assault_rifle" name_id="bm_w_s552" desc_id ="bm_w_s552_desc" description_id="des_s552" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="armored_transport" texture_bundle_folder="dlc1"> 
+		<weapon id="s552_besecondary" based_on="s552" category="assault_rifle" name_id="bm_w_s552" desc_id ="bm_w_s552_desc" description_id="des_s552" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="8" AMMO_MAX="240" weapon_hold="ak47" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="22" extra_ammo="6" suppression="12" value="1" recoil="15" spread="10" damage="35"/> 
 		</weapon> 
@@ -1999,6 +2040,9 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -2008,7 +2052,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ppk_besecondary" based_on="ppk" category="pistol" name_id="bm_w_ppk" desc_id ="bm_w_ppk_desc" description_id="des_ppk" DAMAGE="1" CLIP_AMMO_MAX="14" global_value="armored_transport" texture_bundle_folder="dlc1"> 
+		<weapon id="ppk_besecondary" based_on="ppk" category="pistol" name_id="bm_w_ppk" desc_id ="bm_w_ppk_desc" description_id="des_ppk" DAMAGE="1" CLIP_AMMO_MAX="14" NR_CLIPS_MAX="11" AMMO_MAX="154" weapon_hold="glock" global_value="armored_transport" texture_bundle_folder="dlc1"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="18" value="1" recoil="16" spread="12" damage="37"/> 
 		</weapon> 
@@ -2054,7 +2098,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mp7_besecondary" based_on="mp7" category="smg" name_id="bm_w_mp7" desc_id ="bm_w_mp7_desc" description_id="des_mp7" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
+		<weapon id="mp7_besecondary" based_on="mp7" category="smg" name_id="bm_w_mp7" desc_id ="bm_w_mp7_desc" description_id="des_mp7" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="8" AMMO_MAX="160" weapon_hold="mp9" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="17" total_ammo_mod="21" reload="11" concealment="23" extra_ammo="6" suppression="16" value="7" recoil="18" spread="17" damage="40"/> 
 		</weapon> 
@@ -2105,6 +2149,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -2114,7 +2159,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="scar_besecondary" based_on="scar" category="assault_rifle" name_id="bm_w_scar" desc_id ="bm_w_scar_desc" description_id="des_scar" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
+		<weapon id="scar_besecondary" based_on="scar" category="assault_rifle" name_id="bm_w_scar" desc_id ="bm_w_scar_desc" description_id="des_scar" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="5" AMMO_MAX="100" weapon_hold="m4" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="15" total_ammo_mod="21" reload="11" concealment="8" extra_ammo="6" suppression="8" value="9" recoil="12" spread="19" damage="81"/> 
 		</weapon> 
@@ -2179,6 +2224,9 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -2188,7 +2236,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="p226_besecondary" based_on="p226" category="pistol" name_id="bm_w_p226" desc_id ="bm_w_p226_desc" description_id="des_p226" DAMAGE="1" CLIP_AMMO_MAX="12" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
+		<weapon id="p226_besecondary" based_on="p226" category="pistol" name_id="bm_w_p226" desc_id ="bm_w_p226_desc" description_id="des_p226" DAMAGE="1" CLIP_AMMO_MAX="12" NR_CLIPS_MAX="7" AMMO_MAX="84" weapon_hold="colt_1911" global_value="gage_pack" texture_bundle_folder="gage_pack"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -2239,7 +2287,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="akm_gold_besecondary" based_on="akm_gold" category="assault_rifle" name_id="bm_w_akm_gold" desc_id ="bm_w_akm_gold_desc" description_id="des_ak47" DAMAGE="1.25" CLIP_AMMO_MAX="30" global_value="pd2_clan" > 
+		<weapon id="akm_gold_besecondary" based_on="akm_gold" category="assault_rifle" name_id="bm_w_akm_gold" desc_id ="bm_w_akm_gold_desc" description_id="des_ak47" DAMAGE="1.25" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="ak47" global_value="pd2_clan" > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="11" extra_ammo="6" suppression="8" value="1" recoil="12" spread="16" damage="80"/> 
 		</weapon> 
@@ -2323,6 +2371,8 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ak_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -2332,7 +2382,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hk21_besecondary" based_on="hk21" category="lmg" name_id="bm_w_hk21" desc_id ="bm_w_hk21_desc" description_id="des_hk21" DAMAGE="1" CLIP_AMMO_MAX="150" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
+		<weapon id="hk21_besecondary" based_on="hk21" category="lmg" name_id="bm_w_hk21" desc_id ="bm_w_hk21_desc" description_id="des_hk21" DAMAGE="1" CLIP_AMMO_MAX="150" NR_CLIPS_MAX="2" AMMO_MAX="300" weapon_hold="hk21" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="8" spread_moving="10" total_ammo_mod="21" reload="11" concealment="2" extra_ammo="6" suppression="2" value="9" recoil="10" spread="10" damage="40"/> 
 		</weapon> 
@@ -2382,7 +2432,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m249_besecondary" based_on="m249" category="lmg" name_id="bm_w_m249" desc_id ="bm_w_m249_desc" description_id="des_m249" DAMAGE="1" CLIP_AMMO_MAX="200" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
+		<weapon id="m249_besecondary" based_on="m249" category="lmg" name_id="bm_w_m249" desc_id ="bm_w_m249_desc" description_id="des_m249" DAMAGE="1" CLIP_AMMO_MAX="200" NR_CLIPS_MAX="2" AMMO_MAX="400" weapon_hold="m249" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="8" total_ammo_mod="21" reload="11" concealment="2" extra_ammo="6" suppression="4" value="9" recoil="10" spread="8" damage="36"/> 
 		</weapon> 
@@ -2425,6 +2475,7 @@
 				<value_node value="wpn_fps_upg_m4_s_ubr"/> 
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
 				<value_node value="wpn_fps_upg_bp_lmg_lionbipod"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
@@ -2435,7 +2486,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rpk_besecondary" based_on="rpk" category="lmg" name_id="bm_w_rpk" desc_id ="bm_w_rpk_desc" description_id="des_rpk" DAMAGE="1" CLIP_AMMO_MAX="100" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
+		<weapon id="rpk_besecondary" based_on="rpk" category="lmg" name_id="bm_w_rpk" desc_id ="bm_w_rpk_desc" description_id="des_rpk" DAMAGE="1" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="3" AMMO_MAX="300" weapon_hold="rpk" global_value="gage_pack_lmg" texture_bundle_folder="gage_pack_lmg"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="2" alert_size="7" spread_moving="6" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="8" value="9" recoil="10" spread="8" damage="40"/> 
 		</weapon> 
@@ -2488,6 +2539,7 @@
 				<value_node value="wpn_fps_upg_ns_ass_pbs1"/> 
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
 				<value_node value="wpn_fps_upg_bp_lmg_lionbipod"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
@@ -2498,7 +2550,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m95_besecondary" based_on="m95" category="snp" name_id="bm_w_m95" desc_id ="bm_w_m95_desc" description_id="des_m95" DAMAGE="1" CLIP_AMMO_MAX="5" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
+		<weapon id="m95_besecondary" based_on="m95" category="snp" name_id="bm_w_m95" desc_id ="bm_w_m95_desc" description_id="des_m95" DAMAGE="1" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="3" AMMO_MAX="15"  global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="9" spread_moving="24" total_ammo_mod="21" reload="11" concealment="1" extra_ammo="6" suppression="2" value="9" recoil="2" spread="24" damage="145"/> 
 			<stats_modifiers damage="20"/> 
@@ -2551,6 +2603,9 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -2561,7 +2616,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="msr_besecondary" based_on="msr" category="snp" name_id="bm_w_msr" desc_id ="bm_w_msr_desc" description_id="des_msr" DAMAGE="1" CLIP_AMMO_MAX="10" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
+		<weapon id="msr_besecondary" based_on="msr" category="snp" name_id="bm_w_msr" desc_id ="bm_w_msr_desc" description_id="des_msr" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="4" AMMO_MAX="40" weapon_hold="msr" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="22" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="6" value="9" recoil="8" spread="23" damage="160"/> 
 			<stats_modifiers damage="1"/> 
@@ -2604,6 +2659,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -2614,7 +2671,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="r93_besecondary" based_on="r93" category="snp" name_id="bm_w_r93" desc_id ="bm_w_r93_desc" description_id="des_r93" DAMAGE="1" CLIP_AMMO_MAX="6" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
+		<weapon id="r93_besecondary" based_on="r93" category="snp" name_id="bm_w_r93" desc_id ="bm_w_r93_desc" description_id="des_r93" DAMAGE="1" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="5" AMMO_MAX="30" weapon_hold="r93" global_value="gage_pack_snp" texture_bundle_folder="gage_pack_snp"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="24" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="4" value="9" recoil="4" spread="24" damage="150"/> 
 			<stats_modifiers damage="2"/> 
@@ -2657,6 +2714,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -2667,7 +2726,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="fal_besecondary" based_on="fal" category="assault_rifle" name_id="bm_w_fal" desc_id ="bm_w_fal_desc" description_id="des_fal" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="big_bank" texture_bundle_folder="big_bank"> 
+		<weapon id="fal_besecondary" based_on="fal" category="assault_rifle" name_id="bm_w_fal" desc_id ="bm_w_fal_desc" description_id="des_fal" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="5" AMMO_MAX="100"  global_value="big_bank" texture_bundle_folder="big_bank"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="10" extra_ammo="6" suppression="8" value="4" recoil="12" spread="18" damage="80"/> 
 		</weapon> 
@@ -2726,6 +2785,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -2735,7 +2796,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="benelli_besecondary" based_on="benelli" category="shotgun" name_id="bm_w_benelli" desc_id ="bm_w_benelli_desc" description_id="des_benelli" DAMAGE="6" CLIP_AMMO_MAX="8" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
+		<weapon id="benelli_besecondary" based_on="benelli" category="shotgun" name_id="bm_w_benelli" desc_id ="bm_w_benelli_desc" description_id="des_benelli" DAMAGE="6" CLIP_AMMO_MAX="8" NR_CLIPS_MAX="8" AMMO_MAX="64"  global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="7" total_ammo_mod="21" reload="11" concealment="12" extra_ammo="6" suppression="6" value="1" recoil="12" spread="8" damage="55"/> 
 		</weapon> 
@@ -2779,6 +2840,7 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -2795,7 +2857,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="striker_besecondary" based_on="striker" category="shotgun" name_id="bm_w_striker" desc_id ="bm_w_striker_desc" description_id="des_striker" DAMAGE="6" CLIP_AMMO_MAX="12" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
+		<weapon id="striker_besecondary" based_on="striker" category="shotgun" name_id="bm_w_striker" desc_id ="bm_w_striker_desc" description_id="des_striker" DAMAGE="6" CLIP_AMMO_MAX="12" NR_CLIPS_MAX="6" AMMO_MAX="72"  global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="21" extra_ammo="6" suppression="5" value="1" recoil="12" spread="8" damage="42"/> 
 		</weapon> 
@@ -2835,6 +2897,7 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -2851,7 +2914,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ksg_besecondary" based_on="ksg" category="shotgun" name_id="bm_w_ksg" desc_id ="bm_w_ksg_desc" description_id="des_ksg" DAMAGE="6" CLIP_AMMO_MAX="14" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
+		<weapon id="ksg_besecondary" based_on="ksg" category="shotgun" name_id="bm_w_ksg" desc_id ="bm_w_ksg_desc" description_id="des_ksg" DAMAGE="6" CLIP_AMMO_MAX="14" NR_CLIPS_MAX="3" AMMO_MAX="42" weapon_hold="ksg" global_value="gage_pack_shotgun" texture_bundle_folder="gage_pack_shotgun"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="22" extra_ammo="6" suppression="5" value="1" recoil="12" spread="12" damage="90"/> 
 		</weapon> 
@@ -2895,6 +2958,7 @@
 				<value_node value="wpn_fps_sho_ksg_b_legendary"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -2911,7 +2975,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="judge_besecondary" based_on="judge" category="shotgun" name_id="bm_w_judge" desc_id ="bm_w_judge_desc" description_id="des_judge" DAMAGE="6" CLIP_AMMO_MAX="5" global_value="pd2_clan" texture_bundle_folder="pd2_million"> 
+		<weapon id="judge_besecondary" based_on="judge" category="shotgun" name_id="bm_w_judge" desc_id ="bm_w_judge_desc" description_id="des_judge" DAMAGE="6" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="5" AMMO_MAX="25" weapon_hold="raging_bull" global_value="pd2_clan" texture_bundle_folder="pd2_million"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="5" value="1" recoil="8" spread="14" damage="155"/> 
 		</weapon> 
@@ -2951,6 +3015,7 @@
 				<value_node value="wpn_fps_pis_judge_g_legend"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -2967,7 +3032,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="gre_m79_besecondary" based_on="gre_m79" category="grenade_launcher" name_id="bm_w_gre_m79" desc_id ="bm_w_gre_m79_desc" description_id="des_gre_m79" DAMAGE="6" CLIP_AMMO_MAX="1" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
+		<weapon id="gre_m79_besecondary" based_on="gre_m79" category="grenade_launcher" name_id="bm_w_gre_m79" desc_id ="bm_w_gre_m79_desc" description_id="des_gre_m79" DAMAGE="6" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="6" AMMO_MAX="6"  global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="6" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="130"/> 
 			<stats_modifiers damage="10"/> 
@@ -2997,7 +3062,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g3_besecondary" based_on="g3" category="assault_rifle" name_id="bm_w_g3" desc_id ="bm_w_g3_desc" description_id="des_g3" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
+		<weapon id="g3_besecondary" based_on="g3" category="assault_rifle" name_id="bm_w_g3" desc_id ="bm_w_g3_desc" description_id="des_g3" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="5" AMMO_MAX="100"  global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="12" extra_ammo="6" suppression="6" value="4" recoil="13" spread="18" damage="80"/> 
 		</weapon> 
@@ -3061,6 +3126,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3070,7 +3137,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="galil_besecondary" based_on="galil" category="assault_rifle" name_id="bm_w_galil" desc_id ="bm_w_galil_desc" description_id="des_galil" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
+		<weapon id="galil_besecondary" based_on="galil" category="assault_rifle" name_id="bm_w_galil" desc_id ="bm_w_galil_desc" description_id="des_galil" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="ak47" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="10" total_ammo_mod="21" reload="11" concealment="15" extra_ammo="6" suppression="7" value="4" recoil="18" spread="13" damage="42"/> 
 		</weapon> 
@@ -3131,6 +3198,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3140,7 +3209,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="famas_besecondary" based_on="famas" category="assault_rifle" name_id="bm_w_famas" desc_id ="bm_w_famas_desc" description_id="des_famas" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
+		<weapon id="famas_besecondary" based_on="famas" category="assault_rifle" name_id="bm_w_famas" desc_id ="bm_w_famas_desc" description_id="des_famas" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="8" AMMO_MAX="240"  global_value="gage_pack_assault" texture_bundle_folder="gage_pack_assault"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="10" value="4" recoil="18" spread="10" damage="35"/> 
 		</weapon> 
@@ -3193,6 +3262,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_concealment_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_damage_p2"/> 
@@ -3204,7 +3275,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="scorpion_besecondary" based_on="scorpion" category="smg" name_id="bm_w_scorpion" desc_id ="bm_w_scorpion_desc" description_id="des_scorpion" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
+		<weapon id="scorpion_besecondary" based_on="scorpion" category="smg" name_id="bm_w_scorpion" desc_id ="bm_w_scorpion_desc" description_id="des_scorpion" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="11" AMMO_MAX="220" weapon_hold="scorpion" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="17" value="7" recoil="18" spread="8" damage="36"/> 
 		</weapon> 
@@ -3259,6 +3330,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_pis_m3x"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3268,7 +3340,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="tec9_besecondary" based_on="tec9" category="smg" name_id="bm_w_tec9" desc_id ="bm_w_tec9_desc" description_id="des_tec9" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
+		<weapon id="tec9_besecondary" based_on="tec9" category="smg" name_id="bm_w_tec9" desc_id ="bm_w_tec9_desc" description_id="des_tec9" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="11" AMMO_MAX="220" weapon_hold="tec9" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="27" extra_ammo="6" suppression="12" value="7" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -3317,6 +3389,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3326,7 +3399,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="uzi_besecondary" based_on="uzi" category="smg" name_id="bm_w_uzi" desc_id ="bm_w_uzi_desc" description_id="des_uzi" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
+		<weapon id="uzi_besecondary" based_on="uzi" category="smg" name_id="bm_w_uzi" desc_id ="bm_w_uzi_desc" description_id="des_uzi" DAMAGE="1" CLIP_AMMO_MAX="40" NR_CLIPS_MAX="5" AMMO_MAX="200" weapon_hold="mp9" global_value="hl_miami" texture_bundle_folder="hl_miami"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="12" value="7" recoil="18" spread="14" damage="40"/> 
 		</weapon> 
@@ -3382,6 +3455,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3391,7 +3465,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="jowi_besecondary" based_on="jowi" category="akimbo" name_id="bm_w_jowi" desc_id ="bm_w_jowi_desc" description_id="des_jowi" DAMAGE="1" CLIP_AMMO_MAX="20"  > 
+		<weapon id="jowi_besecondary" based_on="jowi" category="akimbo" name_id="bm_w_jowi" desc_id ="bm_w_jowi_desc" description_id="des_jowi" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="8" AMMO_MAX="160" weapon_hold="jowi_pistol"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="15" value="1" recoil="16" spread="14" damage="37"/> 
 		</weapon> 
@@ -3436,7 +3510,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_1911_besecondary" based_on="x_1911" category="akimbo" name_id="bm_w_x_1911" desc_id ="bm_w_x_1911_desc" description_id="des_x_1911" DAMAGE="1" CLIP_AMMO_MAX="20"  > 
+		<weapon id="x_1911_besecondary" based_on="x_1911" category="akimbo" name_id="bm_w_x_1911" desc_id ="bm_w_x_1911_desc" description_id="des_x_1911" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="5" AMMO_MAX="100" weapon_hold="jowi_pistol"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="27" extra_ammo="6" suppression="14" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -3490,7 +3564,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_b92fs_besecondary" based_on="x_b92fs" category="akimbo" name_id="bm_w_x_b92fs" desc_id ="bm_w_x_b92fs_desc" description_id="des_x_b92fs" DAMAGE="1" CLIP_AMMO_MAX="28"  > 
+		<weapon id="x_b92fs_besecondary" based_on="x_b92fs" category="akimbo" name_id="bm_w_x_b92fs" desc_id ="bm_w_x_b92fs_desc" description_id="des_x_b92fs" DAMAGE="1" CLIP_AMMO_MAX="28" NR_CLIPS_MAX="6" AMMO_MAX="168" weapon_hold="jowi_pistol"  > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="17" value="1" recoil="16" spread="14" damage="37"/> 
 		</weapon> 
@@ -3542,7 +3616,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_deagle_besecondary" based_on="x_deagle" category="akimbo" name_id="bm_w_x_deagle" desc_id ="bm_w_x_deagle_desc" description_id="des_x_deagle" DAMAGE="1" CLIP_AMMO_MAX="20"  > 
+		<weapon id="x_deagle_besecondary" based_on="x_deagle" category="akimbo" name_id="bm_w_x_deagle" desc_id ="bm_w_x_deagle_desc" description_id="des_x_deagle" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="3" AMMO_MAX="60"   > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="4" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="7" value="1" recoil="8" spread="20" damage="120"/> 
 		</weapon> 
@@ -3593,7 +3667,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="g26_besecondary" based_on="g26" category="pistol" name_id="bm_wp_pis_g26" desc_id ="bm_wp_pis_g26_desc" description_id="des_g26" DAMAGE="1" CLIP_AMMO_MAX="10" global_value="pd2_clan" > 
+		<weapon id="g26_besecondary" based_on="g26" category="pistol" name_id="bm_wp_pis_g26" desc_id ="bm_wp_pis_g26_desc" description_id="des_g26" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="15" AMMO_MAX="150" weapon_hold="glock" global_value="pd2_clan" > 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="18" value="1" recoil="16" spread="14" damage="37"/> 
 		</weapon> 
@@ -3639,7 +3713,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="spas12_besecondary" based_on="spas12" category="shotgun" name_id="bm_w_spas12" desc_id ="bm_w_spas12_desc" description_id="des_spas12" DAMAGE="6" CLIP_AMMO_MAX="6" global_value="pd2_clan" > 
+		<weapon id="spas12_besecondary" based_on="spas12" category="shotgun" name_id="bm_w_spas12" desc_id ="bm_w_spas12_desc" description_id="des_spas12" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="11" AMMO_MAX="66"  global_value="pd2_clan" > 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="14" extra_ammo="6" suppression="5" value="1" recoil="12" spread="8" damage="55"/> 
 		</weapon> 
@@ -3683,6 +3757,7 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -3699,7 +3774,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mg42_besecondary" based_on="mg42" category="lmg" name_id="bm_w_mg42" desc_id ="bm_w_mg42_desc" description_id="des_mg42" DAMAGE="1" CLIP_AMMO_MAX="150" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
+		<weapon id="mg42_besecondary" based_on="mg42" category="lmg" name_id="bm_w_mg42" desc_id ="bm_w_mg42_desc" description_id="des_mg42" DAMAGE="1" CLIP_AMMO_MAX="150" NR_CLIPS_MAX="3" AMMO_MAX="450" weapon_hold="mg42" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="8" total_ammo_mod="21" reload="11" concealment="2" extra_ammo="6" suppression="4" value="9" recoil="10" spread="8" damage="36"/> 
 		</weapon> 
@@ -3741,7 +3816,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="c96_besecondary" based_on="c96" category="pistol" name_id="bm_w_c96" desc_id ="bm_w_c96_desc" description_id="des_c96" DAMAGE="1" CLIP_AMMO_MAX="10" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
+		<weapon id="c96_besecondary" based_on="c96" category="pistol" name_id="bm_w_c96" desc_id ="bm_w_c96_desc" description_id="des_c96" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="9" AMMO_MAX="90" weapon_hold="glock" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="14" value="1" recoil="16" spread="21" damage="65"/> 
 		</weapon> 
@@ -3786,7 +3861,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sterling_besecondary" based_on="sterling" category="smg" name_id="bm_w_sterling" desc_id ="bm_w_sterling_desc" description_id="des_sterling" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
+		<weapon id="sterling_besecondary" based_on="sterling" category="smg" name_id="bm_w_sterling" desc_id ="bm_w_sterling_desc" description_id="des_sterling" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="11" AMMO_MAX="220" weapon_hold="sterling" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="12" value="7" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -3851,7 +3926,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mosin_besecondary" based_on="mosin" category="snp" name_id="bm_w_mosin" desc_id ="bm_w_mosin_desc" description_id="des_mosin" DAMAGE="1" CLIP_AMMO_MAX="5" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
+		<weapon id="mosin_besecondary" based_on="mosin" category="snp" name_id="bm_w_mosin" desc_id ="bm_w_mosin_desc" description_id="des_mosin" DAMAGE="1" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="5" AMMO_MAX="25" weapon_hold="mosin" global_value="gage_pack_historical" texture_bundle_folder="gage_pack_historical"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="24" total_ammo_mod="21" reload="11" concealment="6" extra_ammo="6" suppression="5" value="9" recoil="4" spread="24" damage="150"/> 
 			<stats_modifiers damage="2"/> 
@@ -3897,6 +3972,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -3907,7 +3984,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m1928_besecondary" based_on="m1928" category="smg" name_id="bm_w_m1928" desc_id ="bm_w_m1928_desc" description_id="des_m1928" DAMAGE="1" CLIP_AMMO_MAX="50" global_value="pd2_clan" texture_bundle_folder="pines"> 
+		<weapon id="m1928_besecondary" based_on="m1928" category="smg" name_id="bm_w_m1928" desc_id ="bm_w_m1928_desc" description_id="des_m1928" DAMAGE="1" CLIP_AMMO_MAX="50" NR_CLIPS_MAX="3" AMMO_MAX="150" weapon_hold="tommy" global_value="pd2_clan" texture_bundle_folder="pines"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="1" alert_size="8" spread_moving="13" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="12" value="9" recoil="18" spread="13" damage="40"/> 
 		</weapon> 
@@ -3966,6 +4043,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -3975,7 +4053,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="l85a2_besecondary" based_on="l85a2" category="assault_rifle" name_id="bm_w_l85a2" desc_id ="bm_w_l85a2_desc" description_id="des_l85a2" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="character_pack_clover" texture_bundle_folder="character_pack_clover"> 
+		<weapon id="l85a2_besecondary" based_on="l85a2" category="assault_rifle" name_id="bm_w_l85a2" desc_id ="bm_w_l85a2_desc" description_id="des_l85a2" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="l85a2" global_value="character_pack_clover" texture_bundle_folder="character_pack_clover"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="15" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="12" value="9" recoil="16" spread="17" damage="40"/> 
 		</weapon> 
@@ -4040,6 +4118,8 @@
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4049,7 +4129,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="vhs_besecondary" based_on="vhs" category="assault_rifle" name_id="bm_w_vhs" desc_id ="bm_w_vhs_desc" description_id="des_vhs" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="character_pack_dragan" texture_bundle_folder="character_pack_dragan"> 
+		<weapon id="vhs_besecondary" based_on="vhs" category="assault_rifle" name_id="bm_w_vhs" desc_id ="bm_w_vhs_desc" description_id="des_vhs" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="vhs" global_value="character_pack_dragan" texture_bundle_folder="character_pack_dragan"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="15" total_ammo_mod="21" reload="11" concealment="17" extra_ammo="6" suppression="12" value="9" recoil="16" spread="16" damage="40"/> 
 		</weapon> 
@@ -4102,6 +4182,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4111,7 +4193,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hs2000_besecondary" based_on="hs2000" category="pistol" name_id="bm_w_hs2000" desc_id ="bm_w_hs2000_desc" description_id="des_hs2000" DAMAGE="1" CLIP_AMMO_MAX="19" global_value="the_bomb" texture_bundle_folder="the_bomb"> 
+		<weapon id="hs2000_besecondary" based_on="hs2000" category="pistol" name_id="bm_w_hs2000" desc_id ="bm_w_hs2000_desc" description_id="des_hs2000" DAMAGE="1" CLIP_AMMO_MAX="19" NR_CLIPS_MAX="5" AMMO_MAX="95" weapon_hold="glock" global_value="the_bomb" texture_bundle_folder="the_bomb"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -4154,7 +4236,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m134_besecondary" based_on="m134" category="minigun" name_id="bm_w_m134" desc_id ="bm_w_m134_desc" description_id="des_m134" DAMAGE="1" CLIP_AMMO_MAX="750" global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
+		<weapon id="m134_besecondary" based_on="m134" category="minigun" name_id="bm_w_m134" desc_id ="bm_w_m134_desc" description_id="des_m134" DAMAGE="1" CLIP_AMMO_MAX="750" NR_CLIPS_MAX="1" AMMO_MAX="750" weapon_hold="m134" global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="9" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="4" value="9" recoil="2" spread="5" damage="38"/> 
 		</weapon> 
@@ -4190,7 +4272,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rpg7_besecondary" based_on="rpg7" category="grenade_launcher" name_id="bm_w_rpg7" desc_id ="bm_w_rpg7_desc" description_id="des_rpg7" DAMAGE="6" CLIP_AMMO_MAX="1" global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
+		<weapon id="rpg7_besecondary" based_on="rpg7" category="grenade_launcher" name_id="bm_w_rpg7" desc_id ="bm_w_rpg7_desc" description_id="des_rpg7" DAMAGE="6" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="4" AMMO_MAX="4"  global_value="overkill_pack" texture_bundle_folder="dlc_pack_overkill"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="100"/> 
 			<stats_modifiers damage="100"/> 
@@ -4222,6 +4304,7 @@
 				<value_node value="wpn_fps_upg_o_cs"/> 
 				<value_node value="wpn_fps_rpg7_m_grinclown"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4231,7 +4314,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="cobray_besecondary" based_on="cobray" category="smg" name_id="bm_w_cobray" desc_id ="bm_w_cobray_desc" description_id="des_cobray" DAMAGE="1" CLIP_AMMO_MAX="32" global_value="hlm2_deluxe" texture_bundle_folder="hlm2"> 
+		<weapon id="cobray_besecondary" based_on="cobray" category="smg" name_id="bm_w_cobray" desc_id ="bm_w_cobray_desc" description_id="des_cobray" DAMAGE="1" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="5" AMMO_MAX="160" weapon_hold="cobray" global_value="hlm2_deluxe" texture_bundle_folder="hlm2"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="25" extra_ammo="6" suppression="14" value="1" recoil="18" spread="14" damage="40"/> 
 		</weapon> 
@@ -4295,6 +4378,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4304,7 +4388,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="b682_besecondary" based_on="b682" category="shotgun" name_id="bm_w_b682" desc_id ="bm_w_b682_desc" description_id="des_b682" DAMAGE="6" CLIP_AMMO_MAX="2" global_value="pd2_clan" texture_bundle_folder="character_pack_bonnie"> 
+		<weapon id="b682_besecondary" based_on="b682" category="shotgun" name_id="bm_w_b682" desc_id ="bm_w_b682_desc" description_id="des_b682" DAMAGE="6" CLIP_AMMO_MAX="2" NR_CLIPS_MAX="14" AMMO_MAX="28"  global_value="pd2_clan" texture_bundle_folder="character_pack_bonnie"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="2" value="1" recoil="8" spread="16" damage="155"/> 
 			<stats_modifiers damage="1"/> 
@@ -4338,7 +4422,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_g22c_besecondary" based_on="x_g22c" category="akimbo" name_id="bm_w_x_g22c" desc_id ="bm_w_x_g22c_desc" description_id="des_x_g22c" DAMAGE="1" CLIP_AMMO_MAX="32"  texture_bundle_folder="butcher_pack_mods"> 
+		<weapon id="x_g22c_besecondary" based_on="x_g22c" category="akimbo" name_id="bm_w_x_g22c" desc_id ="bm_w_x_g22c_desc" description_id="des_x_g22c" DAMAGE="1" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="3" AMMO_MAX="96" weapon_hold="jowi_pistol"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -4384,7 +4468,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_g17_besecondary" based_on="x_g17" category="akimbo" name_id="bm_w_x_g17" desc_id ="bm_w_x_g17_desc" description_id="des_x_g17" DAMAGE="1" CLIP_AMMO_MAX="34"  texture_bundle_folder="butcher_pack_mods"> 
+		<weapon id="x_g17_besecondary" based_on="x_g17" category="akimbo" name_id="bm_w_x_g17" desc_id ="bm_w_x_g17_desc" description_id="des_x_g17" DAMAGE="1" CLIP_AMMO_MAX="34" NR_CLIPS_MAX="5" AMMO_MAX="170" weapon_hold="jowi_pistol"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="16" value="1" recoil="16" spread="14" damage="37"/> 
 		</weapon> 
@@ -4426,7 +4510,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_usp_besecondary" based_on="x_usp" category="akimbo" name_id="bm_w_x_usp" desc_id ="bm_w_x_usp_desc" description_id="des_x_usp" DAMAGE="1" CLIP_AMMO_MAX="26"  texture_bundle_folder="butcher_pack_mods"> 
+		<weapon id="x_usp_besecondary" based_on="x_usp" category="akimbo" name_id="bm_w_x_usp" desc_id ="bm_w_x_usp_desc" description_id="des_x_usp" DAMAGE="1" CLIP_AMMO_MAX="26" NR_CLIPS_MAX="4" AMMO_MAX="104" weapon_hold="jowi_pistol"  texture_bundle_folder="butcher_pack_mods"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="16" value="1" recoil="14" spread="18" damage="65"/> 
 		</weapon> 
@@ -4471,7 +4555,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="flamethrower_mk2_besecondary" based_on="flamethrower_mk2" category="flamethrower" name_id="bm_w_flamethrower_mk2" desc_id ="bm_w_flamethrower_mk2_desc" description_id="des_flamethrower_mk2" DAMAGE="1" CLIP_AMMO_MAX="300" global_value="bbq" texture_bundle_folder="bbq"> 
+		<weapon id="flamethrower_mk2_besecondary" based_on="flamethrower_mk2" category="flamethrower" name_id="bm_w_flamethrower_mk2" desc_id ="bm_w_flamethrower_mk2_desc" description_id="des_flamethrower_mk2" DAMAGE="1" CLIP_AMMO_MAX="300" NR_CLIPS_MAX="2" AMMO_MAX="600"  global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="1" spread_moving="6" total_ammo_mod="21" reload="11" concealment="7" extra_ammo="6" suppression="2" value="1" recoil="0" spread="1" damage="14"/> 
 		</weapon> 
@@ -4499,7 +4583,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m32_besecondary" based_on="m32" category="grenade_launcher" name_id="bm_w_m32" desc_id ="bm_w_m32_desc" description_id="des_m32" DAMAGE="6" CLIP_AMMO_MAX="6" global_value="bbq" texture_bundle_folder="bbq"> 
+		<weapon id="m32_besecondary" based_on="m32" category="grenade_launcher" name_id="bm_w_m32" desc_id ="bm_w_m32_desc" description_id="des_m32" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="2" AMMO_MAX="12"  global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="10" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="130"/> 
 			<stats_modifiers damage="10"/> 
@@ -4546,6 +4630,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_grenade_launcher_incendiary"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
@@ -4556,7 +4642,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="aa12_besecondary" based_on="aa12" category="shotgun" name_id="bm_w_aa12" desc_id ="bm_w_aa12_desc" description_id="des_aa12" DAMAGE="6" CLIP_AMMO_MAX="8" global_value="bbq" texture_bundle_folder="bbq"> 
+		<weapon id="aa12_besecondary" based_on="aa12" category="shotgun" name_id="bm_w_aa12" desc_id ="bm_w_aa12_desc" description_id="des_aa12" DAMAGE="6" CLIP_AMMO_MAX="8" NR_CLIPS_MAX="9" AMMO_MAX="72" weapon_hold="aa12" global_value="bbq" texture_bundle_folder="bbq"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="9" extra_ammo="6" suppression="5" value="1" recoil="12" spread="8" damage="42"/> 
 		</weapon> 
@@ -4606,6 +4692,7 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -4622,7 +4709,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="peacemaker_besecondary" based_on="peacemaker" category="pistol" name_id="bm_w_peacemaker" desc_id ="bm_w_peacemaker_desc" description_id="des_peacemaker" DAMAGE="6" CLIP_AMMO_MAX="6" global_value="west" texture_bundle_folder="west"> 
+		<weapon id="peacemaker_besecondary" based_on="peacemaker" category="pistol" name_id="bm_w_peacemaker" desc_id ="bm_w_peacemaker_desc" description_id="des_peacemaker" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="9" AMMO_MAX="54"  global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="5" alert_size="7" spread_moving="22" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="5" value="1" recoil="4" spread="22" damage="180"/> 
 			<stats_modifiers damage="1"/> 
@@ -4652,7 +4739,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="winchester1874_besecondary" based_on="winchester1874" category="snp" name_id="bm_w_winchester1874" desc_id ="bm_w_winchester1874_desc" description_id="des_winchester1874" DAMAGE="1" CLIP_AMMO_MAX="15" global_value="west" texture_bundle_folder="west"> 
+		<weapon id="winchester1874_besecondary" based_on="winchester1874" category="snp" name_id="bm_w_winchester1874" desc_id ="bm_w_winchester1874_desc" description_id="des_winchester1874" DAMAGE="1" CLIP_AMMO_MAX="15" NR_CLIPS_MAX="3" AMMO_MAX="45"  global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="24" total_ammo_mod="21" reload="11" concealment="12" extra_ammo="6" suppression="5" value="9" recoil="6" spread="24" damage="160"/> 
 			<stats_modifiers damage="1"/> 
@@ -4682,7 +4769,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="plainsrider_besecondary" based_on="plainsrider" category="bow" name_id="bm_w_plainsrider" desc_id ="bm_w_plainsrider_desc" description_id="des_plainsrider" DAMAGE="6" CLIP_AMMO_MAX="1" global_value="west" texture_bundle_folder="west"> 
+		<weapon id="plainsrider_besecondary" based_on="plainsrider" category="bow" name_id="bm_w_plainsrider" desc_id ="bm_w_plainsrider_desc" description_id="des_plainsrider" DAMAGE="6" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="50" AMMO_MAX="50"  global_value="west" texture_bundle_folder="west"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="5" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="30" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="100"/> 
 			<stats_modifiers damage="10"/> 
@@ -4710,7 +4797,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="mateba_besecondary" based_on="mateba" category="pistol" name_id="bm_w_mateba" desc_id ="bm_w_mateba_desc" description_id="des_mateba" DAMAGE="2" CLIP_AMMO_MAX="6" global_value="arena" texture_bundle_folder="dlc_arena"> 
+		<weapon id="mateba_besecondary" based_on="mateba" category="pistol" name_id="bm_w_mateba" desc_id ="bm_w_mateba_desc" description_id="des_mateba" DAMAGE="2" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="9" AMMO_MAX="54" weapon_hold="mateba" global_value="arena" texture_bundle_folder="dlc_arena"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="22" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="7" value="1" recoil="4" spread="22" damage="180"/> 
 		</weapon> 
@@ -4745,7 +4832,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="asval_besecondary" based_on="asval" category="assault_rifle" name_id="bm_w_asval" desc_id ="bm_w_asval_desc" description_id="des_asval" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="character_pack_sokol" texture_bundle_folder="character_pack_sokol"> 
+		<weapon id="asval_besecondary" based_on="asval" category="assault_rifle" name_id="bm_w_asval" desc_id ="bm_w_asval_desc" description_id="des_asval" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="11" AMMO_MAX="220" weapon_hold="asval" global_value="character_pack_sokol" texture_bundle_folder="character_pack_sokol"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="12" spread_moving="8" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="24" value="1" recoil="17" spread="15" damage="36"/> 
 		</weapon> 
@@ -4789,6 +4876,7 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4798,7 +4886,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sub2000_besecondary" based_on="sub2000" category="assault_rifle" name_id="bm_w_sub2000" desc_id ="bm_w_sub2000_desc" description_id="des_sub2000" DAMAGE="2" CLIP_AMMO_MAX="33" global_value="kenaz" texture_bundle_folder="kenaz"> 
+		<weapon id="sub2000_besecondary" based_on="sub2000" category="assault_rifle" name_id="bm_w_sub2000" desc_id ="bm_w_sub2000_desc" description_id="des_sub2000" DAMAGE="2" CLIP_AMMO_MAX="33" NR_CLIPS_MAX="2" AMMO_MAX="66" weapon_hold="sub2000" global_value="kenaz" texture_bundle_folder="kenaz"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="27" extra_ammo="6" suppression="4" value="1" recoil="9" spread="19" damage="160"/> 
 		</weapon> 
@@ -4855,6 +4943,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -4864,7 +4954,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hunter_besecondary" based_on="hunter" category="crossbow" name_id="bm_w_hunter" desc_id ="bm_w_hunter_desc" description_id="des_hunter" DAMAGE="1" CLIP_AMMO_MAX="1" global_value="turtles" texture_bundle_folder="turtles"> 
+		<weapon id="hunter_besecondary" based_on="hunter" category="crossbow" name_id="bm_w_hunter" desc_id ="bm_w_hunter_desc" description_id="des_hunter" DAMAGE="1" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="25" AMMO_MAX="25" weapon_hold="hunter" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="26" extra_ammo="6" suppression="14" value="1" recoil="25" spread="25" damage="35"/> 
 			<stats_modifiers damage="10"/> 
@@ -4900,7 +4990,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="wa2000_besecondary" based_on="wa2000" category="snp" name_id="bm_w_wa2000" desc_id ="bm_w_wa2000_desc" description_id="des_wa2000" DAMAGE="1" CLIP_AMMO_MAX="10" global_value="turtles" texture_bundle_folder="turtles"> 
+		<weapon id="wa2000_besecondary" based_on="wa2000" category="snp" name_id="bm_w_wa2000" desc_id ="bm_w_wa2000_desc" description_id="des_wa2000" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="4" AMMO_MAX="40" weapon_hold="wa2000" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="24" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="12" value="9" recoil="6" spread="24" damage="160"/> 
 			<stats_modifiers damage="1"/> 
@@ -4949,6 +5039,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -4959,7 +5051,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="polymer_besecondary" based_on="polymer" category="smg" name_id="bm_w_polymer" desc_id ="bm_w_polymer_desc" description_id="des_polymer" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="turtles" texture_bundle_folder="turtles"> 
+		<weapon id="polymer_besecondary" based_on="polymer" category="smg" name_id="bm_w_polymer" desc_id ="bm_w_polymer_desc" description_id="des_polymer" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="5" AMMO_MAX="150" weapon_hold="polymer" global_value="turtles" texture_bundle_folder="turtles"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="14" value="1" recoil="20" spread="14" damage="42"/> 
 		</weapon> 
@@ -5027,6 +5119,8 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -5036,7 +5130,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="arblast_besecondary" based_on="arblast" category="crossbow" name_id="bm_w_arblast" desc_id ="bm_w_arblast_desc" description_id="des_arblast" DAMAGE="1" CLIP_AMMO_MAX="1" global_value="steel" texture_bundle_folder="steel"> 
+		<weapon id="arblast_besecondary" based_on="arblast" category="crossbow" name_id="bm_w_arblast" desc_id ="bm_w_arblast_desc" description_id="des_arblast" DAMAGE="1" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="35" AMMO_MAX="35" weapon_hold="arblast" global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="14" value="1" recoil="25" spread="25" damage="20"/> 
 			<stats_modifiers damage="100"/> 
@@ -5065,7 +5159,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="long_besecondary" based_on="long" category="bow" name_id="bm_w_long" desc_id ="bm_w_long_desc" description_id="des_long" DAMAGE="6" CLIP_AMMO_MAX="1" global_value="steel" texture_bundle_folder="steel"> 
+		<weapon id="long_besecondary" based_on="long" category="bow" name_id="bm_w_long" desc_id ="bm_w_long_desc" description_id="des_long" DAMAGE="6" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="35" AMMO_MAX="35"  global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="5" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="20"/> 
 			<stats_modifiers damage="100"/> 
@@ -5092,7 +5186,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="frankish_besecondary" based_on="frankish" category="crossbow" name_id="bm_w_frankish" desc_id ="bm_w_frankish_desc" description_id="des_frankish" DAMAGE="1" CLIP_AMMO_MAX="1" global_value="steel" texture_bundle_folder="steel"> 
+		<weapon id="frankish_besecondary" based_on="frankish" category="crossbow" name_id="bm_w_frankish" desc_id ="bm_w_frankish_desc" description_id="des_frankish" DAMAGE="1" CLIP_AMMO_MAX="1" NR_CLIPS_MAX="50" AMMO_MAX="50" weapon_hold="frankish" global_value="steel" texture_bundle_folder="steel"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="14" value="1" recoil="25" spread="25" damage="75"/> 
 			<stats_modifiers damage="10"/> 
@@ -5121,7 +5215,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="baka_besecondary" based_on="baka" category="smg" name_id="bm_w_baka" desc_id ="bm_w_baka_desc" description_id="des_baka" DAMAGE="1" CLIP_AMMO_MAX="32" global_value="dragon" texture_bundle_folder="dragon"> 
+		<weapon id="baka_besecondary" based_on="baka" category="smg" name_id="bm_w_baka" desc_id ="bm_w_baka_desc" description_id="des_baka" DAMAGE="1" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="7" AMMO_MAX="224" weapon_hold="baka" global_value="dragon" texture_bundle_folder="dragon"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="4" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="14" value="1" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -5171,7 +5265,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="par_besecondary" based_on="par" category="lmg" name_id="bm_w_par" desc_id ="bm_w_par_desc" description_id="des_par" DAMAGE="1" CLIP_AMMO_MAX="200"  texture_bundle_folder="par"> 
+		<weapon id="par_besecondary" based_on="par" category="lmg" name_id="bm_w_par" desc_id ="bm_w_par_desc" description_id="des_par" DAMAGE="1" CLIP_AMMO_MAX="200" NR_CLIPS_MAX="2" AMMO_MAX="400" weapon_hold="par"  texture_bundle_folder="par"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="8" spread_moving="8" total_ammo_mod="21" reload="11" concealment="2" extra_ammo="6" suppression="4" value="9" recoil="10" spread="9" damage="37"/> 
 		</weapon> 
@@ -5218,7 +5312,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="model70_besecondary" based_on="model70" category="snp" name_id="bm_w_model70" desc_id ="bm_w_model70_desc" description_id="des_model70" DAMAGE="1" CLIP_AMMO_MAX="5"  texture_bundle_folder="berry"> 
+		<weapon id="model70_besecondary" based_on="model70" category="snp" name_id="bm_w_model70" desc_id ="bm_w_model70_desc" description_id="des_model70" DAMAGE="1" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="6" AMMO_MAX="30" weapon_hold="model70"  texture_bundle_folder="berry"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="24" total_ammo_mod="21" reload="11" concealment="6" extra_ammo="6" suppression="5" value="9" recoil="4" spread="24" damage="150"/> 
 			<stats_modifiers damage="2"/> 
@@ -5229,7 +5323,7 @@
 				<value_node value="wpn_fps_snp_model70_body_standard"/> 
 				<value_node value="wpn_fps_snp_model70_s_standard"/> 
 				<value_node value="wpn_fps_snp_model70_m_standard"/> 
-				<value_node value="wpn_fps_upg_o_shortdot"/> 
+				<value_node value="wpn_fps_upg_o_shortdot_vanilla"/> 
 			</default_blueprint> 
 			<uses_parts> 
 				<value_node value="wpn_fps_snp_model70_b_standard"/> 
@@ -5252,7 +5346,7 @@
 				<value_node value="wpn_fps_upg_o_aimpoint_2"/> 
 				<value_node value="wpn_fps_upg_o_acog"/> 
 				<value_node value="wpn_fps_upg_o_cs"/> 
-				<value_node value="wpn_fps_upg_o_shortdot"/> 
+				<value_node value="wpn_fps_upg_o_shortdot_vanilla"/> 
 				<value_node value="wpn_fps_upg_o_leupold"/> 
 				<value_node value="wpn_fps_upg_o_45iron"/> 
 				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/> 
@@ -5266,6 +5360,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -5276,7 +5372,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sparrow_besecondary" based_on="sparrow" category="pistol" name_id="bm_w_sparrow" desc_id ="bm_w_sparrow_desc" description_id="des_sparrow" DAMAGE="1" CLIP_AMMO_MAX="12" global_value="berry" texture_bundle_folder="rip"> 
+		<weapon id="sparrow_besecondary" based_on="sparrow" category="pistol" name_id="bm_w_sparrow" desc_id ="bm_w_sparrow_desc" description_id="des_sparrow" DAMAGE="1" CLIP_AMMO_MAX="12" NR_CLIPS_MAX="5" AMMO_MAX="60" weapon_hold="colt_1911" global_value="berry" texture_bundle_folder="rip"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="9" spread="18" damage="120"/> 
 		</weapon> 
@@ -5329,7 +5425,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="m37_besecondary" based_on="m37" category="shotgun" name_id="bm_w_m37" desc_id ="bm_w_m37_desc" description_id="des_m37" DAMAGE="6" CLIP_AMMO_MAX="7" global_value="peta" texture_bundle_folder="peta"> 
+		<weapon id="m37_besecondary" based_on="m37" category="shotgun" name_id="bm_w_m37" desc_id ="bm_w_m37_desc" description_id="des_m37" DAMAGE="6" CLIP_AMMO_MAX="7" NR_CLIPS_MAX="4" AMMO_MAX="28" weapon_hold="m37" global_value="peta" texture_bundle_folder="peta"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="22" extra_ammo="6" suppression="5" value="1" recoil="14" spread="12" damage="155"/> 
 		</weapon> 
@@ -5375,7 +5471,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="china_besecondary" based_on="china" category="grenade_launcher" name_id="bm_w_china" desc_id ="bm_w_china_desc" description_id="des_china" DAMAGE="6" CLIP_AMMO_MAX="3" global_value="pal" texture_bundle_folder="lupus"> 
+		<weapon id="china_besecondary" based_on="china" category="grenade_launcher" name_id="bm_w_china" desc_id ="bm_w_china_desc" description_id="des_china" DAMAGE="6" CLIP_AMMO_MAX="3" NR_CLIPS_MAX="2" AMMO_MAX="6"  global_value="pal" texture_bundle_folder="lupus"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="6" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="130"/> 
 			<stats_modifiers damage="10"/> 
@@ -5409,7 +5505,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="sr2_besecondary" based_on="sr2" category="smg" name_id="bm_w_sr2" desc_id ="bm_w_sr2_desc" description_id="des_sr2" DAMAGE="1" CLIP_AMMO_MAX="32"  texture_bundle_folder="coco"> 
+		<weapon id="sr2_besecondary" based_on="sr2" category="smg" name_id="bm_w_sr2" desc_id ="bm_w_sr2_desc" description_id="des_sr2" DAMAGE="1" CLIP_AMMO_MAX="32" NR_CLIPS_MAX="5" AMMO_MAX="160"   texture_bundle_folder="coco"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="25" extra_ammo="6" suppression="14" value="1" recoil="12" spread="14" damage="40"/> 
 		</weapon> 
@@ -5475,7 +5571,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_sr2_besecondary" based_on="x_sr2" category="akimbo" name_id="bm_w_x_sr2" desc_id ="bm_w_x_sr2_desc" description_id="des_x_sr2" DAMAGE="1" CLIP_AMMO_MAX="64"  texture_bundle_folder="coco"> 
+		<weapon id="x_sr2_besecondary" based_on="x_sr2" category="akimbo" name_id="bm_w_x_sr2" desc_id ="bm_w_x_sr2_desc" description_id="des_x_sr2" DAMAGE="1" CLIP_AMMO_MAX="64" NR_CLIPS_MAX="3" AMMO_MAX="192" weapon_hold="x_sr2"  texture_bundle_folder="coco"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="25" extra_ammo="6" suppression="15" value="1" recoil="12" spread="14" damage="40"/> 
 		</weapon> 
@@ -5527,7 +5623,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="pl14_besecondary" based_on="pl14" category="pistol" name_id="bm_w_pl14" desc_id ="bm_w_pl14_desc" description_id="des_pl14" DAMAGE="1" CLIP_AMMO_MAX="12"  texture_bundle_folder="mad"> 
+		<weapon id="pl14_besecondary" based_on="pl14" category="pistol" name_id="bm_w_pl14" desc_id ="bm_w_pl14_desc" description_id="des_pl14" DAMAGE="1" CLIP_AMMO_MAX="12" NR_CLIPS_MAX="5" AMMO_MAX="60" weapon_hold="colt_1911"  texture_bundle_folder="mad"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="9" spread="18" damage="120"/> 
 		</weapon> 
@@ -5571,7 +5667,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_mp5_besecondary" based_on="x_mp5" category="akimbo" name_id="bm_w_x_mp5" desc_id ="bm_w_x_mp5_desc" description_id="des_x_mp5" DAMAGE="1" CLIP_AMMO_MAX="60"  texture_bundle_folder="dos"> 
+		<weapon id="x_mp5_besecondary" based_on="x_mp5" category="akimbo" name_id="bm_w_x_mp5" desc_id ="bm_w_x_mp5_desc" description_id="des_x_mp5" DAMAGE="1" CLIP_AMMO_MAX="60" NR_CLIPS_MAX="4" AMMO_MAX="240" weapon_hold="x_akmsu"  texture_bundle_folder="dos"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="23" extra_ammo="6" suppression="17" value="1" recoil="20" spread="8" damage="36"/> 
 		</weapon> 
@@ -5612,6 +5708,7 @@
 				<value_node value="wpn_fps_smg_mp5_m_straight"/> 
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_smg_mp5_fg_flash"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -5621,7 +5718,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_akmsu_besecondary" based_on="x_akmsu" category="akimbo" name_id="bm_w_x_akmsu" desc_id ="bm_w_x_akmsu_desc" description_id="des_x_akmsu" DAMAGE="1" CLIP_AMMO_MAX="60"  texture_bundle_folder="dos"> 
+		<weapon id="x_akmsu_besecondary" based_on="x_akmsu" category="akimbo" name_id="bm_w_x_akmsu" desc_id ="bm_w_x_akmsu_desc" description_id="des_x_akmsu" DAMAGE="1" CLIP_AMMO_MAX="60" NR_CLIPS_MAX="2" AMMO_MAX="120" weapon_hold="x_akmsu"  texture_bundle_folder="dos"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="16" total_ammo_mod="21" reload="11" concealment="21" extra_ammo="6" suppression="8" value="1" recoil="12" spread="16" damage="80"/> 
 		</weapon> 
@@ -5680,7 +5777,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="tecci_besecondary" based_on="tecci" category="assault_rifle" name_id="bm_w_tecci" desc_id ="bm_w_tecci_desc" description_id="des_tecci" DAMAGE="1" CLIP_AMMO_MAX="100" global_value="opera" texture_bundle_folder="opera"> 
+		<weapon id="tecci_besecondary" based_on="tecci" category="assault_rifle" name_id="bm_w_tecci" desc_id ="bm_w_tecci_desc" description_id="des_tecci" DAMAGE="1" CLIP_AMMO_MAX="100" NR_CLIPS_MAX="2" AMMO_MAX="200" weapon_hold="tecci" global_value="opera" texture_bundle_folder="opera"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="10" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="10" value="1" recoil="14" spread="7" damage="38"/> 
 		</weapon> 
@@ -5760,6 +5857,10 @@
 				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -5769,7 +5870,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="hajk_besecondary" based_on="hajk" category="smg" name_id="bm_w_hajk" desc_id ="bm_w_hajk_desc" description_id="des_hajk" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="born" texture_bundle_folder="born"> 
+		<weapon id="hajk_besecondary" based_on="hajk" category="smg" name_id="bm_w_hajk" desc_id ="bm_w_hajk_desc" description_id="des_hajk" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90"  global_value="born" texture_bundle_folder="born"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="15" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="14" value="1" recoil="18" spread="19" damage="80"/> 
 		</weapon> 
@@ -5834,6 +5935,7 @@
 				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_m4_upg_m_quick"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -5843,7 +5945,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="boot_besecondary" based_on="boot" category="shotgun" name_id="bm_w_boot" desc_id ="bm_w_boot_desc" description_id="des_boot" DAMAGE="6" CLIP_AMMO_MAX="7" global_value="wild" texture_bundle_folder="wild"> 
+		<weapon id="boot_besecondary" based_on="boot" category="shotgun" name_id="bm_w_boot" desc_id ="bm_w_boot_desc" description_id="des_boot" DAMAGE="6" CLIP_AMMO_MAX="7" NR_CLIPS_MAX="3" AMMO_MAX="21" weapon_hold="boot" global_value="wild" texture_bundle_folder="wild"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="12" total_ammo_mod="21" reload="11" concealment="20" extra_ammo="6" suppression="5" value="1" recoil="8" spread="13" damage="155"/> 
 		</weapon> 
@@ -5897,7 +5999,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="packrat_besecondary" based_on="packrat" category="pistol" name_id="bm_w_packrat" desc_id ="bm_w_packrat_desc" description_id="des_packrat" DAMAGE="1" CLIP_AMMO_MAX="15" global_value="pim" texture_bundle_folder="pim"> 
+		<weapon id="packrat_besecondary" based_on="packrat" category="pistol" name_id="bm_w_packrat" desc_id ="bm_w_packrat_desc" description_id="des_packrat" DAMAGE="1" CLIP_AMMO_MAX="15" NR_CLIPS_MAX="6" AMMO_MAX="90" weapon_hold="packrat" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="16" spread="18" damage="66"/> 
 		</weapon> 
@@ -5946,7 +6048,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="schakal_besecondary" based_on="schakal" category="smg" name_id="bm_w_schakal" desc_id ="bm_w_schakal_desc" description_id="des_schakal" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="pim" texture_bundle_folder="pim"> 
+		<weapon id="schakal_besecondary" based_on="schakal" category="smg" name_id="bm_w_schakal" desc_id ="bm_w_schakal_desc" description_id="des_schakal" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="schakal" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="14" value="1" recoil="14" spread="16" damage="80"/> 
 		</weapon> 
@@ -6013,6 +6115,7 @@
 				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -6022,7 +6125,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="desertfox_besecondary" based_on="desertfox" category="snp" name_id="bm_w_desertfox" desc_id ="bm_w_desertfox_desc" description_id="des_desertfox" DAMAGE="1" CLIP_AMMO_MAX="5" global_value="pim" texture_bundle_folder="pim"> 
+		<weapon id="desertfox_besecondary" based_on="desertfox" category="snp" name_id="bm_w_desertfox" desc_id ="bm_w_desertfox_desc" description_id="des_desertfox" DAMAGE="1" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="6" AMMO_MAX="30" weapon_hold="desertfox" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="1" alert_size="7" spread_moving="24" total_ammo_mod="21" reload="11" concealment="19" extra_ammo="6" suppression="5" value="10" recoil="4" spread="20" damage="150"/> 
 			<stats_modifiers damage="2"/> 
@@ -6066,6 +6169,8 @@
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_o_box"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
@@ -6076,7 +6181,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="x_packrat_besecondary" based_on="x_packrat" category="akimbo" name_id="bm_w_x_packrat" desc_id ="bm_w_x_packrat_desc" description_id="des_x_packrat" DAMAGE="1" CLIP_AMMO_MAX="30" global_value="pim" texture_bundle_folder="pim"> 
+		<weapon id="x_packrat_besecondary" based_on="x_packrat" category="akimbo" name_id="bm_w_x_packrat" desc_id ="bm_w_x_packrat_desc" description_id="des_x_packrat" DAMAGE="1" CLIP_AMMO_MAX="30" NR_CLIPS_MAX="3" AMMO_MAX="90" weapon_hold="jowi_pistol" global_value="pim" texture_bundle_folder="pim"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="27" extra_ammo="6" suppression="15" value="4" recoil="16" spread="18" damage="66"/> 
 		</weapon> 
@@ -6124,7 +6229,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="rota_besecondary" based_on="rota" category="shotgun" name_id="bm_w_rota" desc_id ="bm_w_rota_desc" description_id="des_rota" DAMAGE="6" CLIP_AMMO_MAX="6" global_value="rota" texture_bundle_folder="rota"> 
+		<weapon id="rota_besecondary" based_on="rota" category="shotgun" name_id="bm_w_rota" desc_id ="bm_w_rota_desc" description_id="des_rota" DAMAGE="6" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="9" AMMO_MAX="54" weapon_hold="rota" global_value="rota" texture_bundle_folder="rota"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="8" total_ammo_mod="21" reload="11" concealment="13" extra_ammo="6" suppression="5" value="1" recoil="12" spread="15" damage="42"/> 
 		</weapon> 
@@ -6176,6 +6281,7 @@
 				<value_node value="wpn_fps_upg_ns_sho_salvo_large"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
 				<value_node value="wpn_fps_upg_ns_duck"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_slug"/> 
 				<value_node value="wpn_fps_upg_a_custom"/> 
 				<value_node value="wpn_fps_upg_a_custom_free"/> 
@@ -6192,7 +6298,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="arbiter_besecondary" based_on="arbiter" category="grenade_launcher" name_id="bm_w_arbiter" desc_id ="bm_w_arbiter_desc" description_id="des_arbiter" DAMAGE="6" CLIP_AMMO_MAX="5" global_value="tango" texture_bundle_folder="tng"> 
+		<weapon id="arbiter_besecondary" based_on="arbiter" category="grenade_launcher" name_id="bm_w_arbiter" desc_id ="bm_w_arbiter_desc" description_id="des_arbiter" DAMAGE="6" CLIP_AMMO_MAX="5" NR_CLIPS_MAX="3" AMMO_MAX="15"  global_value="tango" texture_bundle_folder="tng"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="6" total_ammo_mod="21" reload="11" concealment="18" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="70"/> 
 			<stats_modifiers damage="10"/> 
@@ -6238,6 +6344,7 @@
 				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
 				<value_node value="wpn_fps_upg_a_grenade_launcher_incendiary_arbiter"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
@@ -6248,7 +6355,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="contraband_besecondary" based_on="contraband" category="assault_rifle" name_id="bm_w_contraband" desc_id ="bm_w_contraband_desc" description_id="des_contraband" DAMAGE="1" CLIP_AMMO_MAX="20" global_value="chico" texture_bundle_folder="chico"> 
+		<weapon id="contraband_besecondary" based_on="contraband" category="assault_rifle" name_id="bm_w_contraband" desc_id ="bm_w_contraband_desc" description_id="des_contraband" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="2" AMMO_MAX="40" weapon_hold="contraband" global_value="chico" texture_bundle_folder="chico"> 
 			<use_data selection_index="1"/> 
 			<stats zoom="3" alert_size="7" spread_moving="15" total_ammo_mod="21" reload="11" concealment="8" extra_ammo="6" suppression="8" value="9" recoil="12" spread="19" damage="160"/> 
 		</weapon> 
@@ -6310,6 +6417,8 @@
 				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
 				<value_node value="wpn_fps_upg_o_45rds"/> 
 				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
 				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
 				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
 				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
@@ -6319,7 +6428,7 @@
 		<stance/> 
 	</WeaponNew> 
 	<WeaponNew> 
-		<weapon id="ray_besecondary" based_on="ray" category="grenade_launcher" name_id="bm_w_ray" desc_id ="bm_w_ray_desc" description_id="des_ray" DAMAGE="6" CLIP_AMMO_MAX="4" global_value="friend" texture_bundle_folder="friend"> 
+		<weapon id="ray_besecondary" based_on="ray" category="grenade_launcher" name_id="bm_w_ray" desc_id ="bm_w_ray_desc" description_id="des_ray" DAMAGE="6" CLIP_AMMO_MAX="4" NR_CLIPS_MAX="2" AMMO_MAX="8"  global_value="friend" texture_bundle_folder="friend"> 
 			<use_data selection_index="2"/> 
 			<stats zoom="3" alert_size="7" spread_moving="25" total_ammo_mod="21" reload="11" concealment="5" extra_ammo="6" suppression="2" value="1" recoil="25" spread="25" damage="50"/> 
 			<stats_modifiers damage="100"/> 
@@ -6354,7 +6463,440 @@
 		</factory> 
 		<stance/> 
 	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="tti_besecondary" based_on="tti" category="snp" name_id="bm_w_tti" desc_id ="bm_w_tti_desc" description_id="des_tti" DAMAGE="1" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="2" AMMO_MAX="40" weapon_hold="tti" global_value="spa" texture_bundle_folder="spa"> 
+			<use_data selection_index="1"/> 
+			<stats zoom="1" alert_size="8" spread_moving="24" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="12" value="9" recoil="2" spread="20" damage="160"/> 
+			<stats_modifiers damage="1"/> 
+		</weapon> 
+		<factory id="wpn_fps_snp_tti_besecondary" based_on="wpn_fps_snp_tti" unit="units/pd2_dlc_spa/weapons/wpn_fps_snp_tti/wpn_fps_snp_tti"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_snp_tti_vg_standard"/> 
+				<value_node value="wpn_fps_snp_tti_ns_standard"/> 
+				<value_node value="wpn_fps_snp_tti_m_standard"/> 
+				<value_node value="wpn_fps_snp_tti_fg_standard"/> 
+				<value_node value="wpn_fps_snp_tti_dhs_switch"/> 
+				<value_node value="wpn_fps_snp_tti_dh_standard"/> 
+				<value_node value="wpn_fps_snp_tti_bolt_standard"/> 
+				<value_node value="wpn_fps_snp_tti_body_receiverupper"/> 
+				<value_node value="wpn_fps_snp_tti_body_receiverlower"/> 
+				<value_node value="wpn_fps_snp_tti_b_standard"/> 
+				<value_node value="wpn_fps_upg_o_shortdot"/> 
+				<value_node value="wpn_fps_ass_contraband_s_standard"/> 
+				<value_node value="wpn_fps_upg_m4_g_standard_vanilla"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_snp_tti_vg_standard"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_snp_tti_ns_standard"/> 
+				<value_node value="wpn_fps_snp_tti_ns_hex"/> 
+				<value_node value="wpn_fps_snp_tti_m_standard"/> 
+				<value_node value="wpn_fps_snp_tti_g_grippy"/> 
+				<value_node value="wpn_fps_snp_tti_fg_standard"/> 
+				<value_node value="wpn_fps_snp_tti_dhs_switch"/> 
+				<value_node value="wpn_fps_snp_tti_dh_standard"/> 
+				<value_node value="wpn_fps_snp_tti_bolt_standard"/> 
+				<value_node value="wpn_fps_snp_tti_body_receiverupper"/> 
+				<value_node value="wpn_fps_snp_tti_body_receiverlower"/> 
+				<value_node value="wpn_fps_snp_tti_b_standard"/> 
+				<value_node value="wpn_fps_ass_contraband_s_standard"/> 
+				<value_node value="wpn_fps_upg_m4_s_ubr"/> 
+				<value_node value="wpn_fps_upg_m4_s_crane"/> 
+				<value_node value="wpn_fps_upg_m4_s_mk46"/> 
+				<value_node value="wpn_fps_m4_uupg_s_fold"/> 
+				<value_node value="wpn_fps_upg_m4_s_standard_vanilla"/> 
+				<value_node value="wpn_fps_upg_m4_s_pts"/> 
+				<value_node value="wpn_fps_upg_m4_g_hgrip"/> 
+				<value_node value="wpn_fps_upg_m4_g_mgrip"/> 
+				<value_node value="wpn_fps_upg_m4_g_standard_vanilla"/> 
+				<value_node value="wpn_fps_upg_m4_g_ergo"/> 
+				<value_node value="wpn_fps_upg_m4_g_sniper"/> 
+				<value_node value="wpn_fps_upg_m4_s_adapter"/> 
+				<value_node value="wpn_fps_upg_o_specter"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint"/> 
+				<value_node value="wpn_fps_upg_o_docter"/> 
+				<value_node value="wpn_fps_upg_o_eotech"/> 
+				<value_node value="wpn_fps_upg_o_t1micro"/> 
+				<value_node value="wpn_fps_upg_o_cmore"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/> 
+				<value_node value="wpn_fps_upg_o_acog"/> 
+				<value_node value="wpn_fps_upg_o_shortdot"/> 
+				<value_node value="wpn_fps_upg_o_leupold"/> 
+				<value_node value="wpn_fps_upg_o_45iron"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/> 
+				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
+				<value_node value="wpn_fps_upg_o_reflex"/> 
+				<value_node value="wpn_fps_upg_o_rx01"/> 
+				<value_node value="wpn_fps_upg_o_rx30"/> 
+				<value_node value="wpn_fps_upg_o_cs"/> 
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/> 
+				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
+				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_box"/> 
+				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="siltstone_besecondary" based_on="siltstone" category="snp" name_id="bm_w_siltstone" desc_id ="bm_w_siltstone_desc" description_id="des_siltstone" DAMAGE="1" CLIP_AMMO_MAX="10" NR_CLIPS_MAX="3" AMMO_MAX="30" weapon_hold="siltstone" global_value="grv" texture_bundle_folder="grv"> 
+			<use_data selection_index="1"/> 
+			<stats zoom="1" alert_size="8" spread_moving="24" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="12" value="9" recoil="2" spread="19" damage="150"/> 
+			<stats_modifiers damage="2"/> 
+		</weapon> 
+		<factory id="wpn_fps_snp_siltstone_besecondary" based_on="wpn_fps_snp_siltstone" unit="units/pd2_dlc_grv/weapons/wpn_fps_snp_siltstone/wpn_fps_snp_siltstone"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_snp_siltstone_b_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_body_receiver"/> 
+				<value_node value="wpn_fps_snp_siltstone_dh_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_ejector"/> 
+				<value_node value="wpn_fps_snp_siltstone_fg_wood"/> 
+				<value_node value="wpn_fps_snp_siltstone_m_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_s_wood"/> 
+				<value_node value="wpn_fps_upg_o_shortdot"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_snp_siltstone_b_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_b_silenced"/> 
+				<value_node value="wpn_fps_snp_siltstone_body_receiver"/> 
+				<value_node value="wpn_fps_snp_siltstone_dh_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_ejector"/> 
+				<value_node value="wpn_fps_snp_siltstone_fg_polymer"/> 
+				<value_node value="wpn_fps_snp_siltstone_fg_wood"/> 
+				<value_node value="wpn_fps_snp_siltstone_m_standard"/> 
+				<value_node value="wpn_fps_snp_siltstone_ns_variation_b"/> 
+				<value_node value="wpn_fps_snp_siltstone_o_scopemount"/> 
+				<value_node value="wpn_fps_snp_siltstone_s_polymer"/> 
+				<value_node value="wpn_fps_snp_siltstone_s_wood"/> 
+				<value_node value="wpn_fps_snp_siltstone_iron_sight"/> 
+				<value_node value="wpn_fps_upg_o_specter"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint"/> 
+				<value_node value="wpn_fps_upg_o_docter"/> 
+				<value_node value="wpn_fps_upg_o_eotech"/> 
+				<value_node value="wpn_fps_upg_o_t1micro"/> 
+				<value_node value="wpn_fps_upg_o_cmore"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/> 
+				<value_node value="wpn_fps_upg_o_acog"/> 
+				<value_node value="wpn_fps_upg_o_shortdot"/> 
+				<value_node value="wpn_fps_upg_o_leupold"/> 
+				<value_node value="wpn_fps_upg_o_45iron"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/> 
+				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
+				<value_node value="wpn_fps_upg_o_reflex"/> 
+				<value_node value="wpn_fps_upg_o_rx01"/> 
+				<value_node value="wpn_fps_upg_o_rx30"/> 
+				<value_node value="wpn_fps_upg_o_cs"/> 
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/> 
+				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
+				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_box"/> 
+				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_total_ammo_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="flint_besecondary" based_on="flint" category="assault_rifle" name_id="bm_w_ak12" desc_id ="bm_w_ak12_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="35" NR_CLIPS_MAX="3" AMMO_MAX="105" weapon_hold="flint" global_value="grv" texture_bundle_folder="grv"> 
+			<use_data selection_index="1"/> 
+			<stats zoom="3" alert_size="7" spread_moving="11" total_ammo_mod="21" reload="11" concealment="16" extra_ammo="6" suppression="10" value="1" recoil="16" spread="16" damage="80"/> 
+		</weapon> 
+		<factory id="wpn_fps_ass_flint_besecondary" based_on="wpn_fps_ass_flint" unit="units/pd2_dlc_grv/weapons/wpn_fps_ass_flint/wpn_fps_ass_flint"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_ass_flint_b_standard"/> 
+				<value_node value="wpn_fps_ass_flint_body_upperreceiver"/> 
+				<value_node value="wpn_fps_ass_flint_m_standard"/> 
+				<value_node value="wpn_fps_ass_flint_fg_standard"/> 
+				<value_node value="wpn_fps_ass_flint_dh_standard"/> 
+				<value_node value="wpn_fps_ass_flint_ns_standard"/> 
+				<value_node value="wpn_fps_ass_flint_o_standard"/> 
+				<value_node value="wpn_fps_ass_flint_s_standard"/> 
+				<value_node value="wpn_fps_ass_flint_g_standard"/> 
+				<value_node value="wpn_fps_ass_flint_m_release_standard"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_ass_flint_b_standard"/> 
+				<value_node value="wpn_fps_ass_flint_body_upperreceiver"/> 
+				<value_node value="wpn_fps_ass_flint_m_standard"/> 
+				<value_node value="wpn_fps_ass_flint_m_release_standard"/> 
+				<value_node value="wpn_fps_ass_flint_fg_standard"/> 
+				<value_node value="wpn_fps_ass_flint_dh_standard"/> 
+				<value_node value="wpn_fps_ass_flint_ns_standard"/> 
+				<value_node value="wpn_fps_ass_flint_o_standard"/> 
+				<value_node value="wpn_fps_ass_flint_s_standard"/> 
+				<value_node value="wpn_fps_ass_flint_g_standard"/> 
+				<value_node value="wpn_fps_upg_i_singlefire"/> 
+				<value_node value="wpn_fps_upg_i_autofire"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/> 
+				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/> 
+				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_large"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_medium"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_small"/> 
+				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
+				<value_node value="wpn_fps_upg_ass_ns_jprifles"/> 
+				<value_node value="wpn_fps_upg_ass_ns_linear"/> 
+				<value_node value="wpn_fps_upg_ass_ns_surefire"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_firepig"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_stubby"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_tank"/> 
+				<value_node value="wpn_fps_upg_ns_ass_pbs1"/> 
+				<value_node value="wpn_fps_upg_ak_ns_ak105"/> 
+				<value_node value="wpn_fps_upg_o_specter"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint"/> 
+				<value_node value="wpn_fps_upg_o_docter"/> 
+				<value_node value="wpn_fps_upg_o_eotech"/> 
+				<value_node value="wpn_fps_upg_o_t1micro"/> 
+				<value_node value="wpn_fps_upg_o_cmore"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/> 
+				<value_node value="wpn_fps_upg_o_acog"/> 
+				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
+				<value_node value="wpn_fps_upg_o_reflex"/> 
+				<value_node value="wpn_fps_upg_o_rx01"/> 
+				<value_node value="wpn_fps_upg_o_rx30"/> 
+				<value_node value="wpn_fps_upg_o_cs"/> 
+				<value_node value="wpn_fps_upg_ak_g_hgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_pgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_wgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_rk3"/> 
+				<value_node value="wpn_fps_upg_m4_s_ubr"/> 
+				<value_node value="wpn_fps_upg_m4_s_crane"/> 
+				<value_node value="wpn_fps_upg_m4_s_mk46"/> 
+				<value_node value="wpn_fps_upg_m4_s_standard_vanilla"/> 
+				<value_node value="wpn_fps_upg_m4_s_pts"/> 
+				<value_node value="wpn_fps_upg_ak_m_quad"/> 
+				<value_node value="wpn_fps_upg_ak_m_uspalm"/> 
+				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_45rds"/> 
+				<value_node value="wpn_fps_upg_ak_m_quick"/> 
+				<value_node value="wpn_fps_snp_tti_s_vltor"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_o_45rds_v2"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="coal_besecondary" based_on="coal" category="smg" name_id="bm_w_coal" desc_id ="bm_w_coal_desc" description_id="des_ak47" DAMAGE="1" CLIP_AMMO_MAX="64" NR_CLIPS_MAX="2" AMMO_MAX="128" weapon_hold="coal" global_value="grv" texture_bundle_folder="grv"> 
+			<use_data selection_index="2"/> 
+			<stats zoom="3" alert_size="7" spread_moving="14" total_ammo_mod="21" reload="11" concealment="24" extra_ammo="6" suppression="14" value="1" recoil="14" spread="14" damage="80"/> 
+		</weapon> 
+		<factory id="wpn_fps_smg_coal_besecondary" based_on="wpn_fps_smg_coal" unit="units/pd2_dlc_grv/weapons/wpn_fps_smg_coal/wpn_fps_smg_coal"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_smg_coal_b_standard"/> 
+				<value_node value="wpn_fps_smg_coal_body_standard"/> 
+				<value_node value="wpn_fps_smg_coal_m_standard"/> 
+				<value_node value="wpn_fps_smg_coal_fg_standard"/> 
+				<value_node value="wpn_fps_smg_coal_dh_standard"/> 
+				<value_node value="wpn_fps_smg_coal_ns_standard"/> 
+				<value_node value="wpn_fps_smg_coal_s_standard"/> 
+				<value_node value="wpn_fps_smg_coal_g_standard"/> 
+				<value_node value="wpn_fps_smg_coal_mr_standard"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_smg_coal_b_standard"/> 
+				<value_node value="wpn_fps_smg_coal_body_standard"/> 
+				<value_node value="wpn_fps_smg_coal_fg_standard"/> 
+				<value_node value="wpn_fps_smg_coal_g_standard"/> 
+				<value_node value="wpn_fps_smg_coal_dh_standard"/> 
+				<value_node value="wpn_fps_smg_coal_ns_standard"/> 
+				<value_node value="wpn_fps_smg_coal_s_standard"/> 
+				<value_node value="wpn_fps_smg_coal_m_standard"/> 
+				<value_node value="wpn_fps_smg_coal_mr_standard"/> 
+				<value_node value="wpn_fps_smg_coal_o_scopemount_standard"/> 
+				<value_node value="wpn_fps_upg_i_singlefire"/> 
+				<value_node value="wpn_fps_upg_i_autofire"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/> 
+				<value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/> 
+				<value_node value="wpn_fps_upg_fl_ass_utg"/> 
+				<value_node value="wpn_fps_upg_fl_ass_peq15"/> 
+				<value_node value="wpn_fps_upg_fl_ass_laser"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_large"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_medium"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_small"/> 
+				<value_node value="wpn_fps_upg_ass_ns_battle"/> 
+				<value_node value="wpn_fps_upg_ass_ns_jprifles"/> 
+				<value_node value="wpn_fps_upg_ass_ns_linear"/> 
+				<value_node value="wpn_fps_upg_ass_ns_surefire"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_firepig"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_stubby"/> 
+				<value_node value="wpn_fps_upg_ns_ass_smg_tank"/> 
+				<value_node value="wpn_fps_upg_ns_ass_pbs1"/> 
+				<value_node value="wpn_fps_upg_ak_ns_ak105"/> 
+				<value_node value="wpn_fps_upg_o_specter"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint"/> 
+				<value_node value="wpn_fps_upg_o_docter"/> 
+				<value_node value="wpn_fps_upg_o_eotech"/> 
+				<value_node value="wpn_fps_upg_o_t1micro"/> 
+				<value_node value="wpn_fps_upg_o_cmore"/> 
+				<value_node value="wpn_fps_upg_o_aimpoint_2"/> 
+				<value_node value="wpn_fps_upg_o_acog"/> 
+				<value_node value="wpn_fps_upg_o_eotech_xps"/> 
+				<value_node value="wpn_fps_upg_o_reflex"/> 
+				<value_node value="wpn_fps_upg_o_rx01"/> 
+				<value_node value="wpn_fps_upg_o_rx30"/> 
+				<value_node value="wpn_fps_upg_o_cs"/> 
+				<value_node value="wpn_fps_upg_ak_g_hgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_pgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_wgrip"/> 
+				<value_node value="wpn_fps_upg_ak_g_rk3"/> 
+				<value_node value="wpn_fps_upg_o_spot"/> 
+				<value_node value="wpn_fps_upg_o_xpsg33_magnifier"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="lemming_besecondary" based_on="lemming" category="pistol" name_id="bm_w_lemming" desc_id ="bm_w_lemming_desc" description_id="des_lemming" DAMAGE="1" CLIP_AMMO_MAX="15" NR_CLIPS_MAX="3" AMMO_MAX="45" weapon_hold="packrat" global_value="pd2_clan" texture_bundle_folder="fi7"> 
+			<use_data selection_index="2"/> 
+			<stats zoom="3" alert_size="7" spread_moving="18" total_ammo_mod="21" reload="11" concealment="29" extra_ammo="6" suppression="15" value="4" recoil="12" spread="17" damage="120"/> 
+		</weapon> 
+		<factory id="wpn_fps_pis_lemming_besecondary" based_on="wpn_fps_pis_lemming" unit="units/pd2_dlc_fi7/weapons/wpn_fps_pis_lemming/wpn_fps_pis_lemming"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_pis_lemming_b_standard"/> 
+				<value_node value="wpn_fps_pis_lemming_body"/> 
+				<value_node value="wpn_fps_pis_lemming_m_standard"/> 
+				<value_node value="wpn_fps_pis_lemming_mag_release"/> 
+				<value_node value="wpn_fps_pis_lemming_sl_standard"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_pis_lemming_b_standard"/> 
+				<value_node value="wpn_fps_pis_lemming_b_nitride"/> 
+				<value_node value="wpn_fps_pis_lemming_body"/> 
+				<value_node value="wpn_fps_pis_lemming_m_standard"/> 
+				<value_node value="wpn_fps_pis_lemming_m_ext"/> 
+				<value_node value="wpn_fps_pis_lemming_mag_release"/> 
+				<value_node value="wpn_fps_pis_lemming_sl_standard"/> 
+				<value_node value="wpn_fps_upg_fl_pis_laser"/> 
+				<value_node value="wpn_fps_upg_fl_pis_tlr1"/> 
+				<value_node value="wpn_fps_upg_ns_pis_large"/> 
+				<value_node value="wpn_fps_upg_ns_pis_medium"/> 
+				<value_node value="wpn_fps_upg_ns_pis_small"/> 
+				<value_node value="wpn_fps_upg_ns_pis_large_kac"/> 
+				<value_node value="wpn_fps_upg_ns_pis_medium_gem"/> 
+				<value_node value="wpn_fps_upg_o_rmr"/> 
+				<value_node value="wpn_fps_upg_ns_pis_medium_slim"/> 
+				<value_node value="wpn_fps_upg_pis_ns_flash"/> 
+				<value_node value="wpn_fps_upg_fl_pis_crimson"/> 
+				<value_node value="wpn_fps_upg_fl_pis_x400v"/> 
+				<value_node value="wpn_fps_upg_ns_pis_meatgrinder"/> 
+				<value_node value="wpn_fps_upg_ns_pis_ipsccomp"/> 
+				<value_node value="wpn_fps_upg_fl_pis_m3x"/> 
+				<value_node value="wpn_fps_upg_ns_ass_filter"/> 
+				<value_node value="wpn_fps_upg_ns_pis_jungle"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="chinchilla_besecondary" based_on="chinchilla" category="pistol" name_id="bm_w_chinchilla" desc_id ="bm_w_chinchilla_desc" description_id="des_chinchilla" DAMAGE="2" CLIP_AMMO_MAX="6" NR_CLIPS_MAX="9" AMMO_MAX="54" weapon_hold="raging_bull"  texture_bundle_folder="max"> 
+			<use_data selection_index="2"/> 
+			<stats zoom="3" alert_size="7" spread_moving="5" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="7" value="1" recoil="2" spread="20" damage="180"/> 
+		</weapon> 
+		<factory id="wpn_fps_pis_chinchilla_besecondary" based_on="wpn_fps_pis_chinchilla" unit="units/pd2_dlc_max/weapons/wpn_fps_pis_chinchilla/wpn_fps_pis_chinchilla"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_pis_chinchilla_b_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_body"/> 
+				<value_node value="wpn_fps_pis_chinchilla_cylinder"/> 
+				<value_node value="wpn_fps_pis_chinchilla_dh_hammer"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejector"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejectorpin"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_lock_arm"/> 
+				<value_node value="wpn_fps_pis_chinchilla_m_bullets"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_pis_chinchilla_b_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_b_satan"/> 
+				<value_node value="wpn_fps_pis_chinchilla_body"/> 
+				<value_node value="wpn_fps_pis_chinchilla_cylinder"/> 
+				<value_node value="wpn_fps_pis_chinchilla_dh_hammer"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejector"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejectorpin"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_black"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_death"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_lock_arm"/> 
+				<value_node value="wpn_fps_pis_chinchilla_m_bullets"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
+	<WeaponNew> 
+		<weapon id="x_chinchilla_besecondary" based_on="x_chinchilla" category="akimbo" name_id="bm_w_x_chinchilla" desc_id ="bm_w_x_chinchilla_desc" description_id="des_x_chinchilla" DAMAGE="1" CLIP_AMMO_MAX="12" NR_CLIPS_MAX="6" AMMO_MAX="72" weapon_hold="x_chinchilla"  texture_bundle_folder="max"> 
+			<use_data selection_index="1"/> 
+			<stats zoom="3" alert_size="7" spread_moving="5" total_ammo_mod="21" reload="11" concealment="28" extra_ammo="6" suppression="7" value="1" recoil="2" spread="20" damage="180"/> 
+		</weapon> 
+		<factory id="wpn_fps_pis_x_chinchilla_besecondary" based_on="wpn_fps_pis_x_chinchilla" unit="units/pd2_dlc_max/weapons/wpn_fps_pis_x_chinchilla/wpn_fps_pis_x_chinchilla"> 
+			<default_blueprint> 
+				<value_node value="wpn_fps_pis_chinchilla_b_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_body"/> 
+				<value_node value="wpn_fps_pis_chinchilla_cylinder"/> 
+				<value_node value="wpn_fps_pis_chinchilla_dh_hammer"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejector"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejectorpin"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_lock_arm"/> 
+				<value_node value="wpn_fps_pis_chinchilla_m_bullets"/> 
+			</default_blueprint> 
+			<uses_parts> 
+				<value_node value="wpn_fps_pis_chinchilla_b_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_b_satan"/> 
+				<value_node value="wpn_fps_pis_chinchilla_body"/> 
+				<value_node value="wpn_fps_pis_chinchilla_cylinder"/> 
+				<value_node value="wpn_fps_pis_chinchilla_dh_hammer"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejector"/> 
+				<value_node value="wpn_fps_pis_chinchilla_ejectorpin"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_black"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_death"/> 
+				<value_node value="wpn_fps_pis_chinchilla_g_standard"/> 
+				<value_node value="wpn_fps_pis_chinchilla_lock_arm"/> 
+				<value_node value="wpn_fps_pis_chinchilla_m_bullets"/> 
+				<value_node value="wpn_fps_upg_bonus_spread_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_team_exp_money_p3"/> 
+				<value_node value="wpn_fps_upg_bonus_recoil_p1"/> 
+				<value_node value="wpn_fps_upg_bonus_concealment_p1"/> 
+			</uses_parts> 
+		</factory> 
+		<stance/> 
+	</WeaponNew> 
 	<Hooks directory="Hooks"> 
+		<hook file="Menu_Function.lua" source_file="lib/managers/menumanager"/> 
 		<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/> 
 		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/> 
 		<hook file="playerinventory.lua" source_file="lib/units/beings/player/playerinventory"/> 

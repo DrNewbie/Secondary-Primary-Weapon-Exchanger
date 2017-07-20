@@ -24,6 +24,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 		local banned = {saw = true, saw_secondary = true}
 		if _file then
 			_file:write('<table name=\"SecondaryPrimaryWeaponExchanger\"> \n')
+			_file:write('	<AssetUpdates id="15378" name="asset_updates" folder_name="SecondaryPrimaryWeaponExchanger" provider="lastbullet"/> \n')
 			local _, _, _, _weapon_lists, _, _, _, _, _ = tweak_data.statistics:statistics_table()
 			local _factory_id = ""
 			if item.update_all then
@@ -43,10 +44,11 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
 						if _wd and _wfd then
 							local _locked = ''
-							_base_states = string.format('%s %s', (_wd.DAMAGE and 'DAMAGE="'.. _wd.DAMAGE ..'"' or ''), 
+							_base_states = string.format('%s %s %s %s %s', (_wd.DAMAGE and 'DAMAGE="'.. _wd.DAMAGE ..'"' or ''), 
 								(_wd.CLIP_AMMO_MAX and 'CLIP_AMMO_MAX="'.. _wd.CLIP_AMMO_MAX ..'"' or ''), 
 								(_wd.NR_CLIPS_MAX and 'NR_CLIPS_MAX="'.. _wd.NR_CLIPS_MAX ..'"' or ''), 
-								(_wd.AMMO_MAX and 'AMMO_MAX="'.. _wd.AMMO_MAX ..'"' or ''))
+								(_wd.AMMO_MAX and 'AMMO_MAX="'.. _wd.AMMO_MAX ..'"' or ''), 
+								(_wd.weapon_hold and 'weapon_hold="'.. _wd.weapon_hold ..'"' or ''))
 							_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 							_file:write('	<WeaponNew> \n')
 							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" category="'.. _wd.category ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _base_states..' '.. _locked..'> \n')
@@ -94,6 +96,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 				end
 			end
 			_file:write('	<Hooks directory="Hooks"> \n')
+			_file:write('		<hook file="Menu_Function.lua" source_file="lib/managers/menumanager"/> \n')
 			_file:write('		<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/> \n')
 			_file:write('		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/> \n')
 			_file:write('		<hook file="playerinventory.lua" source_file="lib/units/beings/player/playerinventory"/> \n')
