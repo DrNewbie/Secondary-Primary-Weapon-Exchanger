@@ -24,7 +24,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 		local banned = {saw = true, saw_secondary = true}
 		if _file then
 			_file:write('<table name=\"SecondaryPrimaryWeaponExchanger\"> \n')
-			_file:write('	<AssetUpdates id="15378" name="asset_updates" folder_name="SecondaryPrimaryWeaponExchanger" provider="lastbullet"/> \n')
+			_file:write('	<AssetUpdates id="15378" name="asset_updates" version="19" folder_name="SecondaryPrimaryWeaponExchanger" provider="modworkshop"/> \n')
 			local _, _, _, _weapon_lists, _, _, _, _, _ = tweak_data.statistics:statistics_table()
 			local _factory_id = ""
 			if item.update_all then
@@ -42,7 +42,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 					if _factory_id then
 						local _wd = tweak_data.weapon[_weapon_id] or nil
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
-						if _wd and _wfd then
+						if _wd and ((not _wd.custom and not item.update_all) or item.update_all) and _wfd then
 							local _locked = ''
 							_base_states = string.format('%s %s %s %s %s', (_wd.DAMAGE and 'DAMAGE="'.. _wd.DAMAGE ..'"' or ''), 
 								(_wd.CLIP_AMMO_MAX and 'CLIP_AMMO_MAX="'.. _wd.CLIP_AMMO_MAX ..'"' or ''), 
