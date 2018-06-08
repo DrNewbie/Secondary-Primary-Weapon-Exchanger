@@ -24,7 +24,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 		local banned = {saw = true, saw_secondary = true}
 		if _file then
 			_file:write('<table name=\"SecondaryPrimaryWeaponExchanger\"> \n')
-			_file:write('	<AssetUpdates id="15378" name="asset_updates" version="19" folder_name="SecondaryPrimaryWeaponExchanger" provider="modworkshop"/> \n')
+			_file:write('	<AssetUpdates id="15378" name="asset_updates" version="20" folder_name="SecondaryPrimaryWeaponExchanger" provider="modworkshop"/>\n')
 			local _, _, _, _weapon_lists, _, _, _, _, _ = tweak_data.statistics:statistics_table()
 			local _factory_id = ""
 			if item.update_all then
@@ -42,7 +42,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 					if _factory_id then
 						local _wd = tweak_data.weapon[_weapon_id] or nil
 						local _wfd = tweak_data.weapon.factory[_factory_id] or nil
-						if _wd and ((not _wd.custom and not item.update_all) or item.update_all) and _wfd then
+						if _wd and _wd.use_data and (_wd.use_data.selection_index == 1 or _wd.use_data.selection_index == 2) and ((not _wd.custom and not item.update_all) or item.update_all) and _wfd then
 							local _locked = ''
 							_base_states = string.format('%s %s %s %s %s', (_wd.DAMAGE and 'DAMAGE="'.. _wd.DAMAGE ..'"' or ''), 
 								(_wd.CLIP_AMMO_MAX and 'CLIP_AMMO_MAX="'.. _wd.CLIP_AMMO_MAX ..'"' or ''), 
@@ -51,12 +51,18 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 								(_wd.weapon_hold and 'weapon_hold="'.. _wd.weapon_hold ..'"' or ''))
 							_locked = string.format('%s %s', (_wd.global_value and 'global_value="'.. _wd.global_value ..'"' or ''), (_wd.texture_bundle_folder and 'texture_bundle_folder="'.. _wd.texture_bundle_folder ..'"' or ''))
 							_file:write('	<WeaponNew> \n')
-							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" category="'.. _wd.category ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _base_states..' '.. _locked..'> \n')
+							_file:write('		<weapon id="'.. _weapon_id ..'_besecondary" based_on="'.. _weapon_id ..'" name_id="'.. _wd.name_id ..'" desc_id ="'.. _wd.desc_id ..'" description_id="'.. _wd.description_id ..'" '.. _base_states..' '.. _locked..'> \n')
+							--category
+							_file:write('			<categories>\n')
+							for _, _category in pairs(_wd.categories) do
+								_file:write('				<value_node value="'.._category..'"/> \n')
+							end
+							_file:write('			</categories>\n')
 							--selection_index
 							if _wd.use_data.selection_index == 1 then
-								_file:write('			<use_data selection_index="2"/> \n')
-							else
-								_file:write('			<use_data selection_index="1"/> \n')
+								_file:write('			<use_data selection_index="2"/>\n')
+							elseif _wd.use_data.selection_index == 2 then
+								_file:write('			<use_data selection_index="1"/>\n')
 							end
 							--stats
 							if _wd.stats and type(_wd.stats) == "table" then
@@ -64,7 +70,7 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 								for _stat, _value in pairs(_wd.stats) do
 									stats = stats .. ' '.. _stat ..'="'.. _value ..'"'
 								end
-								_file:write('			<stats'.. stats ..'/> \n')
+								_file:write('			<stats'.. stats ..'/>\n')
 							end
 							--stats_modifiers
 							if _wd.stats_modifiers and type(_wd.stats_modifiers) == "table" then
@@ -72,34 +78,42 @@ Hooks:Add("MenuManagerPopulateCustomMenus", "SecondaryPrimaryWeaponOptions", fun
 								for _stat, _value in pairs(_wd.stats_modifiers) do
 									stats_modifiers = stats_modifiers .. ' '.. _stat ..'="'.. _value ..'"'
 								end
-								_file:write('			<stats_modifiers'.. stats_modifiers ..'/> \n')
+								_file:write('			<stats_modifiers'.. stats_modifiers ..'/>\n')
 							end
+							--optional_types
+							_file:write('			<optional_types>\n')
+							_wfd.optional_types = _wfd.optional_types or {}
+							for _, _optional_type in pairs(_wfd.optional_types) do
+								_file:write('				<value_node value="'.._optional_type..'"/> \n')
+							end
+							_file:write('			</optional_types>\n')
 							--default_blueprint
 							_file:write('		</weapon> \n')
 							_file:write('		<factory id="'.. _factory_id ..'_besecondary" based_on="'.. _factory_id ..'" unit="'.. _wfd.unit ..'"> \n')
 							_file:write('			<default_blueprint> \n')
 							for _, _part in pairs(_wfd.default_blueprint) do
-								_file:write('				<value_node value="'.. _part ..'"/> \n')
+								_file:write('				<value_node value="'.. _part ..'"/>\n')
 							end
 							_file:write('			</default_blueprint> \n')
 							--uses_parts
 							_file:write('			<uses_parts> \n')
 							for _, _part in pairs(_wfd.uses_parts) do
-								_file:write('				<value_node value="'.. _part ..'"/> \n')
+								_file:write('				<value_node value="'.. _part ..'"/>\n')
 							end
 							_file:write('			</uses_parts> \n')
+							--
 							_file:write('		</factory> \n')
-							_file:write('		<stance/> \n')
+							_file:write('		<stance/>\n')
 							_file:write('	</WeaponNew> \n')
 						end
 					end
 				end
 			end
 			_file:write('	<Hooks directory="Hooks"> \n')
-			_file:write('		<hook file="Menu_Function.lua" source_file="lib/managers/menumanager"/> \n')
-			_file:write('		<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/> \n')
-			_file:write('		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/> \n')
-			_file:write('		<hook file="playerinventory.lua" source_file="lib/units/beings/player/playerinventory"/> \n')
+			_file:write('		<hook file="Menu_Function.lua" source_file="lib/managers/menumanager"/>\n')
+			_file:write('		<hook file="blackmarketmanager.lua" source_file="lib/managers/blackmarketmanager"/>\n')
+			_file:write('		<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>\n')
+			_file:write('		<hook file="playerinventory.lua" source_file="lib/units/beings/player/playerinventory"/>\n')
 			_file:write('	</Hooks> \n')
 			_file:write('</table>')
 			_file:close()
@@ -133,5 +147,7 @@ Hooks:Add("MenuManagerBuildCustomMenus", "SecondaryPrimaryWeaponOptions", functi
 	MenuHelper:AddMenuItem(nodes["blt_options"], "SecondaryPrimaryWeapon_menu", "SecondaryPrimaryWeapon_menu_title", "SecondaryPrimaryWeapon_menu_desc")
 end)
 
-Announcer:AddHostMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
-Announcer:AddClientMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
+if Announcer then
+	Announcer:AddHostMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
+	Announcer:AddClientMod('Weapon Exchanger, (Clone weapon and change it from secondary to primary or primary to secondary)')
+end
